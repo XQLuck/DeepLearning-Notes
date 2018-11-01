@@ -55,21 +55,13 @@
 ### Videos
 
 - [Video]偏科普入门，莫烦机器学习教程：<https://morvanzhou.github.io/tutorials/machine-learning/>
-
 - [Video]适合入门，吴恩达机器学习课程：<https://www.coursera.org/learn/machine-learning>、或 B 站：<https://www.bilibili.com/video/av9912938/>
-
 - [Video]吴恩达深度学习课程：<https://mooc.study.163.com/smartSpec/detail/1001319001.htm>（中英文字幕）
-
 - [Video]林轩田《机器学习基石》，B 站观看：<https://www.bilibili.com/video/av1624332>
-
 - [Video]林轩田《机器学习技法》，B 站观看：<https://www.bilibili.com/video/av12469267/>
-
 - [Video]李宏毅《一天搞懂深度学习》，B 站观看：<https://www.bilibili.com/video/av16543434/>
-
 - [Video]李宏毅_机器学习，B 站观看：<https://www.bilibili.com/video/av10590361/>
-
 - [Video]李宏毅_深度学习，B 站观看：<https://www.bilibili.com/video/av9770302/>
-
 - [Video]深度学习计算机视觉课程，李飞飞_斯坦福 CS231n 课程，B 站观看：<https://www.bilibili.com/video/av13260183/>（中文字幕）
 
 
