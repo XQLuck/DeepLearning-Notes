@@ -5,7 +5,6 @@
 资料&干货：
 
 - [语义分割相关资料总结](https://zhuanlan.zhihu.com/p/41976717)
-
   > 看完里面的资料后，基本对语义分割可以蛮清楚了。
 
 - 知乎：[当前主流的图像分割研究方向都有哪些？](https://www.zhihu.com/question/33599013)
@@ -14,11 +13,9 @@
 
 - [语义分割 | 发展综述](https://zhuanlan.zhihu.com/p/37618829)
 - [十分钟看懂图像语义分割技术](https://www.leiphone.com/news/201705/YbRHBVIjhqVBP0X5.html)
-
   > 这篇文章介绍了“Normalized cut”的图划分方法，简称“N-cut”，还介绍到 Grab Cut，以及神经网络、FCN、条件随机场 CRF 等内容。（一篇很全面且易懂的好文）
 
 - 知乎_魏秀参：[从特斯拉到计算机视觉之「图像语义分割」](https://zhuanlan.zhihu.com/p/21824299)
-
   > 看完上面那篇再看这篇吧，内容大部分差不多，但值得看看。
 
 - [资源 | 从全连接层到大型卷积核：深度学习语义分割全指南](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650728920&idx=4&sn=3c51fa0a95742d37222c3e16b77267ca&scene=21#wechat_redirect)
