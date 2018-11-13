@@ -61,11 +61,11 @@
 
 Mask R-CNN 是 2017 年何恺明等大佬基于此前的两阶段目标检测算法推出的顶级网络。Mask R-CNN 的整体架构如图所示：
 
-![](http://p35l3ejfq.bkt.clouddn.com/20181031203911.png)
+![](https://img-1256179949.cos.ap-shanghai.myqcloud.com/20181031203911.png)
 
 Mask R-CNN 将 Fast R-CNN 的 ROI Pooling 层升级成了 ROI Align 层，并且在边界框识别的基础上添加了分支 FCN 层，即 mask 层，用于语义 Mask 识别，通过 RPN 网络生成目标候选框，然后对每个目标候选框分类判断和边框回归，同时利用全卷积网络对每个目标候选框预测分割。Mask R-CNN 本质上一个实例分割算法（Instance Segmentation），相较于语义分割（Semantic Segmentation），实例分割对同类物体有着更为精细的分割。
 
-Mask R-CNN 在 COCO 测试集上的图像分割效果如下：![](http://p35l3ejfq.bkt.clouddn.com/20181031204014.png)
+Mask R-CNN 在 COCO 测试集上的图像分割效果如下：![](https://img-1256179949.cos.ap-shanghai.myqcloud.com/20181031204014.png)
 
 *Mask R-CNN 论文：https://arxiv.org/abs/1703.06870*
 
