@@ -2,6 +2,25 @@
 
 ## Learning
 
+### Semantic segmentation（语义分割）
+
+- [semseg](https://github.com/guanfuchen/semseg)
+
+  > 常用的语义分割架构结构综述以及代码复现
+
+- [DeepNetModel](https://github.com/guanfuchen/DeepNetModel)
+
+  > 记录每一个常用的深度模型结构的特点（图和代码）
+  >
+  > 大佬的博客：[计算机视觉相关资源整理](https://guanfuchen.github.io/post/markdown_blog_ws/markdown_blog_2017_11/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89%E7%9B%B8%E5%85%B3%E8%B5%84%E6%BA%90%E6%95%B4%E7%90%86/)
+
+- [Semantic-Segmentation-Suite](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite)
+
+  > Semantic Segmentation Suite in TensorFlow. Implement, train, and test new Semantic Segmentation models easily!
+
+
+
+
 
 
 ### Reinforce Learning（强化学习/增强学习）
@@ -80,6 +99,22 @@
 - [DeepLearning-500-questions](https://github.com/scutan90/DeepLearning-500-questions)
 
   > 深度学习500问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述，以帮助自己及有需要的读者。 全书分为15个章节，近20万字。由于水平有限，书中不妥之处恳请广大读者批评指正。 未完待续...
+
+- 吴恩达的机器学习&深度学习课程笔记：http://www.ai-start.com/
+
+  > 本网站是一个公益性网站，致力于人工智能（AI）方面的课程的翻译、笔记分享等。
+  >
+  > 本人2014年下半年开始翻译吴恩达老师的机器学习课程字幕，并写了课程的中文笔记。笔记被下载了几万次，应该帮助了不少人，也有很多人一直在帮助我，现在我把笔记的word原稿和markdown原稿分享给大家。
+  >
+  > ……
+  >
+  > ——By 黄海广
+
+- [daily-paper-computer-vision](https://github.com/amusi/daily-paper-computer-vision)
+
+  > 记录每天整理的计算机视觉/深度学习/机器学习相关方向的论文。
+
+
 
 
 
