@@ -2,7 +2,54 @@
 
 ## Learning
 
+### DL-常见模型讲解及实现
+
+B 站视频：[深度学习顶级论文算法详解](https://www.bilibili.com/video/av30271782?from=search&seid=9462295319719088186)（含 Faster-RCNN、ResNet）
+
+
+
 ### Semantic segmentation（语义分割）
+
+#### semseg-Aticles
+
+传统分割方法：[图像分割 传统方法 整理](https://zhuanlan.zhihu.com/p/30732385)
+
+> 图片分割根据灰度、颜色、纹理、和形状等特征将图像进行划分区域，让区域间显差异性，区域内呈相似性。主要分割方法有：
+>
+> - 基于阈值的分割
+> - 基于边缘的分割
+> - 基于区域的分割
+> - 基于图论的分割
+> - 基于能量泛函的分割
+
+还不懂什么是语义分割，先看这篇文章：[十分钟看懂图像语义分割技术](https://www.leiphone.com/news/201705/YbRHBVIjhqVBP0X5.html)
+
+1）综述类/总结类：
+
+- [从全连接层到大型卷积核：深度学习语义分割全指南](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650728920&idx=4&sn=3c51fa0a95742d37222c3e16b77267ca&scene=21#wechat_redirect)
+
+- [分割算法——可以分割一切目标（各种分割总结）](https://mp.weixin.qq.com/s/KcVKKsAyz-eVsyWR0Y812A)
+
+  > 第一种是**编码-译码架构**。编码过程通过池化层逐渐减少位置信息、抽取抽象特征；译码过程逐渐恢复位置信息。一般译码与编码间有直接的连接。该类架构中 U-net 是最流行的。
+  >
+  > 第二种是**膨胀卷积** (dilated convolutions) 【这个核心技术值得去阅读学习】，抛弃了池化层。
+
+- [一文概览主要语义分割网络：FCN,SegNet,U-Net...](https://www.tinymind.cn/articles/410)
+
+  > 该文为译文，介绍了很多语义分割的深度学习模型，包括半监督下的语义分割，可以先大致看下。
+
+2）深度学习语义分割模型的介绍：
+
+- [语义分割(semantic segmentation) 常用神经网络介绍对比-FCN SegNet U-net DeconvNet](https://blog.csdn.net/zhyj3038/article/details/71195262)
+- [深度学习（十九）——FCN, SegNet, DeconvNet, DeepLab, ENet, GCN](https://blog.csdn.net/antkillerfarm/article/details/79524417)
+
+图像分割的衡量指标：
+
+- [图像分割的衡量指标详解](https://blog.csdn.net/qq_37274615/article/details/78957962)
+
+语义分割其实就是对图片的每个像素都做分类。其中，较为重要的语义分割数据集有：VOC2012 以及 MSCOCO。
+
+#### semseg-Repositories
 
 - [semseg](https://github.com/guanfuchen/semseg)
 
@@ -18,6 +65,18 @@
 
   > Semantic Segmentation Suite in TensorFlow. Implement, train, and test new Semantic Segmentation models easily!
 
+#### semseg-Papers
+
+论文汇集：
+
+- [语义分割 - Semantic Segmentation Papers](https://blog.csdn.net/zziahgf/article/details/72639791)
+
+
+
+#### semseg-Videos
+
+- [浙大博士生刘汉唐：带你回顾图像分割的经典算法](http://www.mooc.ai/course/414/learn#lesson/2266)（需要注册才能观看）
+
 
 
 
@@ -25,7 +84,7 @@
 
 ### Reinforce Learning（强化学习/增强学习）
 
-#### Articles
+#### RL-Articles
 
 - 雷锋网：[深度学习新星：GAN的基本原理、应用和走向](https://www.leiphone.com/news/201701/Kq6FvnjgbKK8Lh8N.html)
 
@@ -39,7 +98,7 @@
 
 
 
-## Papers
+## Papers-download-links
 
 
 
@@ -92,6 +151,7 @@
 - [Video]李宏毅_机器学习，B 站观看：<https://www.bilibili.com/video/av10590361/>
 - [Video]李宏毅_深度学习，B 站观看：<https://www.bilibili.com/video/av9770302/>
 - [Video]深度学习计算机视觉课程，李飞飞_斯坦福 CS231n 课程，B 站观看：<https://www.bilibili.com/video/av13260183/>（中文字幕）
+- [Videos]李沐《动手学深度学习》：<https://space.bilibili.com/209599371>，GitHub地址：<https://github.com/diveintodeeplearning/d2l-zh>
 
 
 ### GitHub-Repositories

@@ -97,3 +97,76 @@ Mask R-CNN 在 COCO 测试集上的图像分割效果如下：![](https://img-12
 
 - [深度学习（目标检测。图像分割等）图像标注工具汇总](https://blog.csdn.net/u012426298/article/details/80519158#t6)
 
+
+
+### 数据集介绍
+
+PASCAL VOC 数据集：
+
+> PASCAL VOC 挑战赛是视觉对象的分类识别和检测的一个基准测试，提供了检测算法和学习性能的标准图像注释数据集和标准的评估系统。PASCAL VOC 图片集包括 20 个目录：人类；动物（鸟、猫、牛、狗、马、羊）；交通工具（飞机、自行车、船、公共汽车、小轿车、摩托车、火车）；室内（瓶子、椅子、餐桌、盆栽植物、沙发、电视）。
+>
+> PASCAL VOC 挑战赛在 2012 年后便不再举办，但其数据集图像质量好，标注完备，非常适合用来测试算法性能。
+>
+> 数据集大小：~2GB
+
+- [PASCAL VOC数据集分析](https://blog.csdn.net/zhangjunbob/article/details/52769381)
+- [深度学习图像分割（一）——PASCAL-VOC2012数据集（vocdevkit、Vocbenchmark_release）详细介绍](https://oldpan.me/archives/pascal-voc2012-guide)
+
+MS COCO 数据集：
+
+> COCO 数据集是大规模物体检测（detection）、分割（segmentation）和图说（captioning）数据集，包括 330K 图像（其中超过 200K 有注释），150 万图像实例，80 个物体类别，91 种物质（stuff）类别，每幅图有 5 条图说，250000 带有关键点的人体。
+>
+> COCO 数据集由微软赞助，其对于图像的标注信息不仅有类别、位置信息，还有对图像的语义文本描述，COCO 数据集的开源使得近两三年来图像分割语义理解取得了巨大的进展，也几乎成为了图像语义理解算法性能评价的“标准”数据集。Google 的开源 show and tell 生成模型就是在此数据集上测试的。 目前包含的比赛项目有：
+>
+> 1. 目标检测
+> 2. 图像标注
+> 3. 人体关键点检测
+>
+> 数据集大小：~40GB
+>
+> 注：MS COCO（Microsoft Common Objects in Context，常见物体图像识别）竞赛是继 ImageNet 竞赛（已停办）后，计算机视觉领域最受关注和最权威的比赛之一，是图像（物体）识别方向最重要的标杆（没有之一），也是目前国际领域唯一能够汇集谷歌、微软、Facebook 三大巨头以及国际顶尖院校共同参与的大赛。
+
+
+
+### 图像分割代码
+
+#### FCN
+
+GitHub 搜索：https://github.com/search?q=fcn
+
+
+
+#### SegNet
+
+GitHub 搜索：https://github.com/search?q=segnet
+
+
+
+####  UNet
+
+GitHub 搜索：https://github.com/search?q=unet
+
+
+
+
+
+#### DeepLab
+
+GitHub 搜索：https://github.com/search?q=deeplab
+
+- 官方代码：[tensorflow/models/research/deeplab/](https://github.com/tensorflow/models/tree/master/research/deeplab)
+
+  > [Tensoflow-代码实战篇--Deeplab-V3+--代码复现（二）](https://blog.csdn.net/qq_38437505/article/details/83039882)
+
+- [DrSleep/tensorflow-deeplab-resnet](https://github.com/DrSleep/tensorflow-deeplab-resnet)
+
+  > This is an (re-)implementation of [DeepLab-ResNet](http://liangchiehchen.com/projects/DeepLabv2_resnet.html) in TensorFlow for semantic image segmentation on the [PASCAL VOC dataset](http://host.robots.ox.ac.uk/pascal/VOC/).
+  >
+  > 代码讲解：https://blog.csdn.net/wangdongwei0/article/details/82926733
+
+- [sthalles/deeplab_v3](https://github.com/sthalles/deeplab_v3)  【准备实践该代码】
+
+  > Tensorflow Implementation of the Semantic Segmentation DeepLab_V3 CNN
+
+- [anxiangSir/deeplab_v3](https://github.com/anxiangSir/deeplab_v3)
+
