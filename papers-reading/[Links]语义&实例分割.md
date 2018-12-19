@@ -167,6 +167,10 @@ GitHub 搜索：https://github.com/search?q=deeplab
 - [sthalles/deeplab_v3](https://github.com/sthalles/deeplab_v3)  【准备实践该代码】
 
   > Tensorflow Implementation of the Semantic Segmentation DeepLab_V3 CNN
+  >
+  > For a complete documentation of this implementation, check out the [blog post](https://sthalles.github.io/deep_segmentation_network/). 
+  >
+  > 中文：[语义分割网络DeepLab-v3的架构设计思想和TensorFlow实现](https://www.jiqizhixin.com/articles/deeplab-v3)
 
 - [anxiangSir/deeplab_v3](https://github.com/anxiangSir/deeplab_v3)
 
