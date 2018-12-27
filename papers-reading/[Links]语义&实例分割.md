@@ -1,5 +1,23 @@
 ### 基于监督下的图像分割
 
+目前图像分割任务发展出了以下几个子领域：语义分割（semantic segmentation）、实例分割（instance segmentation）以及今年刚兴起的新领域全景分割（panoptic segmentation）。
+
+而想要理清三个子领域的区别就不得不提到关于图像分割中 things 和 stuff 的区别：图像中的内容可以按照是否有固定形状分为 things 类别和 stuff 类别，其中，人，车等有固定形状的物体属于 things 类别（可数名词通常属于 things）；天空，草地等没有固定形状的物体属于 stuff 类别（不可数名词属于 stuff）。
+
+语义分割更注重「类别之间的区分」，而实例分割更注重「个体之间的区分」，以下图为例，从上到下分别是原图、语义分割结果和实例分割结果。语义分割会重点将前景里的人群和背景里树木、天空和草地分割开，但是它不区分人群的单独个体，如图中的人全部标记为红色，导致右边黄色框中的人无法辨别是一个人还是不同的人；而实例分割会重点将人群里的每一个人分割开，但是不在乎草地、树木和天空的分割。
+
+![](https://img-1256179949.cos.ap-shanghai.myqcloud.com/20181225103541.png)
+
+![](https://img-1256179949.cos.ap-shanghai.myqcloud.com/20181225103551.png)
+
+![](https://img-1256179949.cos.ap-shanghai.myqcloud.com/20181225103557.png)
+
+全景分割可以说是语义分割和实例分割的结合，下图是同一张原图的全景分割结果，每个 stuff 类别与 things 类别都被分割开，可以看到，things 类别的不同个体也被彼此分割开了。
+
+![](https://img-1256179949.cos.ap-shanghai.myqcloud.com/20181225103619.png)
+
+更多：[全景分割这一年，端到端之路](http://www.zhuanzhi.ai/document/766c132ea8191a4475134fc772a9cf19)
+
 资料&干货：
 
 - [语义分割相关资料总结](https://zhuanlan.zhihu.com/p/41976717)
@@ -38,6 +56,7 @@
 - 知乎_stone：[图像语义分割](https://zhuanlan.zhihu.com/c_197474183)
 - 知乎_学海无涯乐为舟：[语义分割的学习](https://zhuanlan.zhihu.com/c_1008415414103203840)
 - 知乎_加油可好：[语义分割刷怪进阶](https://zhuanlan.zhihu.com/c_156519173)
+- 专知：[图像分割](http://www.zhuanzhi.ai/topic/2001388508271825/awesome)
 
 语义分割相关研究：
 
@@ -101,7 +120,7 @@ Mask R-CNN 在 COCO 测试集上的图像分割效果如下：![](https://img-12
 
 ### 数据集介绍
 
-PASCAL VOC 数据集：
+(1) PASCAL VOC 数据集：
 
 > PASCAL VOC 挑战赛是视觉对象的分类识别和检测的一个基准测试，提供了检测算法和学习性能的标准图像注释数据集和标准的评估系统。PASCAL VOC 图片集包括 20 个目录：人类；动物（鸟、猫、牛、狗、马、羊）；交通工具（飞机、自行车、船、公共汽车、小轿车、摩托车、火车）；室内（瓶子、椅子、餐桌、盆栽植物、沙发、电视）。
 >
@@ -112,7 +131,13 @@ PASCAL VOC 数据集：
 - [PASCAL VOC数据集分析](https://blog.csdn.net/zhangjunbob/article/details/52769381)
 - [深度学习图像分割（一）——PASCAL-VOC2012数据集（vocdevkit、Vocbenchmark_release）详细介绍](https://oldpan.me/archives/pascal-voc2012-guide)
 
-MS COCO 数据集：
+(2) PASCAL-Context：
+
+> PASCAL-Context 数据集(2014)是 PASCAL VOC 数据集(2010)的扩展。它包括了 10k 张训练图片，10k 张验证图片，以及 10k 张测试图片。新版数据集的特别之处在于整个情景被分成超过 400 个分类。注意，这些图像由 6 名内部标注师花了六个月标注完成。
+>
+> PASCAL-Context 官方评估标准仍然是 mloU。也有少数研究者在发表的时候采用像素准确度 (pixAcc)做为评估测度。
+
+(3) MS COCO 数据集：
 
 > COCO 数据集是大规模物体检测（detection）、分割（segmentation）和图说（captioning）数据集，包括 330K 图像（其中超过 200K 有注释），150 万图像实例，80 个物体类别，91 种物质（stuff）类别，每幅图有 5 条图说，250000 带有关键点的人体。
 >
@@ -126,13 +151,21 @@ MS COCO 数据集：
 >
 > 注：MS COCO（Microsoft Common Objects in Context，常见物体图像识别）竞赛是继 ImageNet 竞赛（已停办）后，计算机视觉领域最受关注和最权威的比赛之一，是图像（物体）识别方向最重要的标杆（没有之一），也是目前国际领域唯一能够汇集谷歌、微软、Facebook 三大巨头以及国际顶尖院校共同参与的大赛。
 
+(4) Cityscapes：
 
+> Cityscapes 数据集已于 2016 年发布，包含来自 50 个城市的复杂的城市场景分割图。 它由 23.5k 张图像组成，用于训练和验证（详细和粗略的注释）和 1.5 个图像用于测试（仅详细注释）。 图像是完全分割的，例如具有 29 个类别的PASCAL-Context数据集（在 8 个超级类别中：平面，人类，车辆，建筑，物体，自然，天空，虚空）。 由于其复杂性，它通常用于评估语义分割模型。 它也因其与自动驾驶应用中的真实城市场景相似而众所周知。 诸如 PASCAL 数据集使用 mIoU 度量来评估语义分割模型的性能。
 
 ### 图像分割代码
 
 #### FCN
 
 GitHub 搜索：https://github.com/search?q=fcn
+
+- [EternityZY/FCN-TensorFlow](https://github.com/EternityZY/FCN-TensorFlow)  [学习]
+
+  > 代码讲解：[全卷积神经网络FCN-TensorFlow代码精析](https://blog.csdn.net/qq_16761599/article/details/80069824)
+
+- 
 
 
 

@@ -2,9 +2,25 @@
 
 ## Learning
 
+#### CNN学习过程
+
+- [变形卷积核、可分离卷积？卷积神经网络中十大拍案叫绝的操作。](https://zhuanlan.zhihu.com/p/28749411)
+
+
+
 ### DL-常见模型讲解及实现
 
-B 站视频：[深度学习顶级论文算法详解](https://www.bilibili.com/video/av30271782?from=search&seid=9462295319719088186)（含 Faster-RCNN、ResNet）
+##### paper讲解
+
+- B 站视频：[深度学习顶级论文算法详解](https://www.bilibili.com/video/av30271782?from=search&seid=9462295319719088186)（含 Faster-RCNN、ResNet 论文讲解）
+
+
+
+##### ResNet
+
+- 代码：[chaipangpang/ResNet_cifar](https://github.com/chaipangpang/ResNet_cifar)
+
+- ResNet 代码讲解：[理解ResNet结构与TensorFlow代码分析](https://blog.csdn.net/chaipp0607/article/details/75577305)
 
 
 
@@ -24,7 +40,7 @@ B 站视频：[深度学习顶级论文算法详解](https://www.bilibili.com/vi
 
 还不懂什么是语义分割，先看这篇文章：[十分钟看懂图像语义分割技术](https://www.leiphone.com/news/201705/YbRHBVIjhqVBP0X5.html)
 
-1）综述类/总结类：
+(1) 综述类/总结类：
 
 - [从全连接层到大型卷积核：深度学习语义分割全指南](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650728920&idx=4&sn=3c51fa0a95742d37222c3e16b77267ca&scene=21#wechat_redirect)
 
@@ -36,9 +52,9 @@ B 站视频：[深度学习顶级论文算法详解](https://www.bilibili.com/vi
 
 - [一文概览主要语义分割网络：FCN,SegNet,U-Net...](https://www.tinymind.cn/articles/410)
 
-  > 该文为译文，介绍了很多语义分割的深度学习模型，包括半监督下的语义分割，可以先大致看下。
+  > 该文为译文，介绍了很多语义分割的深度学习模型，包括半监督下的语义分割，可以大致看下。
 
-2）深度学习语义分割模型的介绍：
+(2) 深度学习语义分割模型的介绍：
 
 - [语义分割(semantic segmentation) 常用神经网络介绍对比-FCN SegNet U-net DeconvNet](https://blog.csdn.net/zhyj3038/article/details/71195262)
 - [深度学习（十九）——FCN, SegNet, DeconvNet, DeepLab, ENet, GCN](https://blog.csdn.net/antkillerfarm/article/details/79524417)
