@@ -18,11 +18,20 @@
 
 ##### ResNet
 
+(1) 讲解
+
+- [深度残差网络（ResNet）](https://ylhao.github.io/2018/05/25/%E6%AE%8B%E5%B7%AE%E7%BD%91%E7%BB%9C%EF%BC%88ResNet%EF%BC%89/)
+
+(2) 实践
+
 - 代码：[chaipangpang/ResNet_cifar](https://github.com/chaipangpang/ResNet_cifar)
+- ResNet 代码讲解：
+  - [理解ResNet结构与TensorFlow代码分析](https://blog.csdn.net/chaipp0607/article/details/75577305)
+  - [TF官方的ResNet代码详解](https://zhuanlan.zhihu.com/p/32194105)
 
-- ResNet 代码讲解：[理解ResNet结构与TensorFlow代码分析](https://blog.csdn.net/chaipp0607/article/details/75577305)
+关于残差连接：[resnet中的残差连接，你确定真的看懂了？](https://zhuanlan.zhihu.com/p/42833949)
 
-
+更多内容请看我单独写的一个文档：[ResNet(残差网络).md](./papers-reading/经典神经网络模型解读/ResNet(残差网络).md)
 
 ### Semantic segmentation（语义分割）
 
