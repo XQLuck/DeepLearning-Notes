@@ -20,9 +20,9 @@
 
 ### 视频
 
-蒋竺波：[深度学习_残差网络 ResNet](http://i.youku.com/i/UNTU0NjkwNTQyNA==)
+蒋竺波：[深度学习_残差网络 ResNet](http://i.youku.com/i/UNTU0NjkwNTQyNA==)，关于梯度弥散问题这里有讲解一番。
 
-
+![](https://pic4.zhimg.com/80/v2-eb44512243a8e59c1fe02a7e6bd481db_hd.jpg)
 
 
 
