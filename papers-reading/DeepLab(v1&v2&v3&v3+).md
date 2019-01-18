@@ -20,7 +20,7 @@
 
 **DeepLab V3：** 
 
-讲道理，第三版相对于第二版的改动真不是很大，主要是借鉴了下面的两篇论文的思想，然后分别对之前的空洞卷积和 ASPP 模块就行了改进。然后整体加入了 BN。
+讲道理，第三版相对于第二版的改动真不是很大，主要是借鉴了下面的两篇论文的思想，然后分别对之前的空洞卷积和 ASPP 模块就行了改进，然后整体加入了 BN。
 
 - Understanding Convolution for Semantic Segmentation
 
@@ -38,7 +38,37 @@
 
 
 
-比较全面的对 DeepLab 解读，来自机器之心文章：[语义分割网络DeepLab-v3的架构设计思想和TensorFlow实现](https://www.jiqizhixin.com/articles/deeplab-v3)
+---
+
+比较全面的对 DeepLab 解读，来自机器之心文章：[语义分割网络DeepLab-v3的架构设计思想和TensorFlow实现](https://www.jiqizhixin.com/articles/deeplab-v3)  【荐】
+
+作为一个例子，试想通过一系列的卷积来传递图像，而不是使用池化和全连接层。我们将每次卷积都设置成步长为 1，padding 为「SAME」。通过这种处理，每一次卷积都保留了输入的空间维度。我们可以堆叠很多这种卷积，并最终得到一个分割模型。
+
+![](https://image.jiqizhixin.com/uploads/editor/9174de92-cec2-47e3-95b4-f19434cd8164/1522033431606.jpg)
+
+​				*用于密集预测的全卷积神经网络。请注意，不存在池化层和全连接层。*
+
+这个模型可以输出形状为 [W,H,C] 的概率张量，其中 W 和 H 代表的是宽度和高度，C 代表的是类别标签的个数。在第三个维度上应用最大化函数会得到形状为 [W,H,1] 的张量。然后，我们计算真实图像和我们的预测的每个像素之间的交叉熵。最终，我们对计算结果取平均值，并且使用反向传播算法训练网络。
+
+然而，这个方法存在一个问题。正如前面所提到的，使用步长为 1，padding 为「SAME」，保留了输入的维度。但是，那样做的后果就是模型会极其耗费内存，而且计算复杂度也是很大的。
+
+为了缓解这个问题，分割网络通常会有三个主要的组成部分：卷积层、降采样层和上采样层。
+
+![](https://image.jiqizhixin.com/uploads/editor/226ec612-038e-4a3b-a4f0-904a8e314793/1522033432285.jpg)
+
+​							*图像语义分割模型的编码器-解码器结构。*
+
+
+
+
+
+---
+
+### DeepLab v3
+
+- [Semantic Segmentation -- (DeepLabv3)Rethinking Atrous Convolution for Semantic Image Segmentation论文解](https://blog.csdn.net/u011974639/article/details/79144773)
+
+  输出步幅 output_stride：定义为输入图像的分辨率与最终输出分辨率的比值。
 
 
 

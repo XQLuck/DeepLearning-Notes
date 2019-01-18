@@ -33,7 +33,7 @@
 
 更多内容请看我单独写的一个文档：[ResNet(残差网络).md](./papers-reading/经典神经网络模型解读/ResNet(残差网络).md)
 
-### Semantic segmentation（语义分割）
+### Semantic segmentation(语义分割)
 
 #### semseg-Aticles
 
@@ -102,12 +102,14 @@
 
 - [浙大博士生刘汉唐：带你回顾图像分割的经典算法](http://www.mooc.ai/course/414/learn#lesson/2266)（需要注册才能观看）
 
+遥感图像分割：
+
+- [197期\_张觅\_基于深度卷积网络的遥感影像语义分割层次认知方法](https://www.bilibili.com/video/av24599502?from=search&seid=11210211322309323243)
 
 
 
 
-
-### Reinforce Learning（强化学习/增强学习）
+### Reinforce Learning(强化学习/增强学习)
 
 #### RL-Articles
 
@@ -120,6 +122,13 @@
 
 
 
+
+Competition
+===
+
+Kaggle：https://www.kaggle.com/
+
+天池AI开发者社区：https://tianchi.aliyun.com/home/
 
 
 
