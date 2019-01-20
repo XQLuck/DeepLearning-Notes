@@ -123,8 +123,9 @@
 
 
 
-Competition
-===
+
+
+## Competition
 
 Kaggle：https://www.kaggle.com/
 
@@ -149,6 +150,11 @@ Kaggle：https://www.kaggle.com/
 - hanbingtao 《零基础入门深度学习》系列文章：https://www.zybuluo.com/hanbingtao/note/433855
 - Charlotte77：[【深度学习系列】卷积神经网络CNN原理详解(一)——基本原理](https://www.cnblogs.com/charlotte77/p/7759802.html)
 - Charlotte77：[一文弄懂神经网络中的反向传播法——BackPropagation](https://www.cnblogs.com/charlotte77/p/5629865.html )
+
+系列文章：
+
+- [MachineLP博客目录](https://blog.csdn.net/u014365862/article/details/78422372)
+- [《零基础入门深度学习》系列文章](https://www.zybuluo.com/hanbingtao/note/433855)
 
 （updating…）
 
