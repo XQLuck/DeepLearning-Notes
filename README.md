@@ -172,6 +172,7 @@ Kaggle：https://www.kaggle.com/
 - Michael Nielsen[《Neural Networks and Deep Learning》](http://neuralnetworksanddeeplearning.com/index.html)，中文版《神经网络与深度学习》
 - 中文译本：《Python深度学习》2018年8月
 - 张玉宏《深度学习之美：AI时代的数据处理与最佳实践》2018年6月
+- 张平《图解深度学习与神经网络：从张量到TensorFlow实现》2018年09月 
 
 3、深度学习框架
 
@@ -201,7 +202,6 @@ Kaggle：https://www.kaggle.com/
   > 深度学习500问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述，以帮助自己及有需要的读者。 全书分为15个章节，近20万字。由于水平有限，书中不妥之处恳请广大读者批评指正。 未完待续...
 
 - 吴恩达的机器学习&深度学习课程笔记：http://www.ai-start.com/
-
   > 本网站是一个公益性网站，致力于人工智能（AI）方面的课程的翻译、笔记分享等。
   >
   > 本人2014年下半年开始翻译吴恩达老师的机器学习课程字幕，并写了课程的中文笔记。笔记被下载了几万次，应该帮助了不少人，也有很多人一直在帮助我，现在我把笔记的word原稿和markdown原稿分享给大家。
@@ -215,18 +215,6 @@ Kaggle：https://www.kaggle.com/
   > 记录每天整理的计算机视觉/深度学习/机器学习相关方向的论文。
 
 
-
 <div align="right">
     <a href="#记录DeepLearning学习过程">回到顶部</a>
 </div>
-
-
-
-
-
-
-
-
-
-
-
