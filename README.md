@@ -1,20 +1,43 @@
 # 记录DeepLearning学习过程
 
-## Learning
+## 目录
 
-#### CNN学习过程
+<!-- TOC -->
+
+- [1. Learning](#1-Learning)
+- [2. Questions](#2-Questions)
+- [3. Competition](#3-Competition)
+- [4. Papers-Links](#4-Papers-Links)
+- [5. Interview](#5-Interview)
+- [6. Resources](#6-Resources)
+
+<!-- /TOC -->
+
+## 1. Learning
+
+### (1) CNN
+
+入门文章：
+
+- 阮一峰：[神经网络入门](http://www.ruanyifeng.com/blog/2017/07/neural-network.html)
+- 阮一峰：[如何识别图像边缘](http://www.ruanyifeng.com/blog/2016/07/edge-recognition.html)
+- Charlotte77：[【深度学习系列】卷积神经网络CNN原理详解(一)——基本原理](https://www.cnblogs.com/charlotte77/p/7759802.html)
+- Charlotte77：[一文弄懂神经网络中的反向传播法——BackPropagation](https://www.cnblogs.com/charlotte77/p/5629865.html )
+
+系列文章：
+
+- MachineLP：[MachineLP博客目录](https://blog.csdn.net/u014365862/article/details/78422372)
+- hanbingtao：[《零基础入门深度学习》系列文章](https://www.zybuluo.com/hanbingtao/note/433855)
+
+其他文章：
 
 - [变形卷积核、可分离卷积？卷积神经网络中十大拍案叫绝的操作。](https://zhuanlan.zhihu.com/p/28749411)
 
+### (2) 常见模型讲解及实现
 
-
-### DL-常见模型讲解及实现
-
-##### paper讲解
+##### Paper讲解
 
 - B 站视频：[深度学习顶级论文算法详解](https://www.bilibili.com/video/av30271782?from=search&seid=9462295319719088186)（含 Faster-RCNN、ResNet 论文讲解）
-
-
 
 ##### ResNet
 
@@ -33,19 +56,21 @@
 
 更多内容请看我单独写的一个文档：[ResNet(残差网络).md](./papers-reading/经典神经网络模型解读/ResNet(残差网络).md)
 
-### Semantic segmentation(语义分割)
+### (3) Images segmentation(图像分割: 语义/实例/场景分割)
 
 #### semseg-Aticles
 
-传统分割方法：[图像分割 传统方法 整理](https://zhuanlan.zhihu.com/p/30732385)
+[图像分割 传统方法 整理](https://zhuanlan.zhihu.com/p/30732385)
 
 > 图片分割根据灰度、颜色、纹理、和形状等特征将图像进行划分区域，让区域间显差异性，区域内呈相似性。主要分割方法有：
 >
-> - 基于阈值的分割
-> - 基于边缘的分割
-> - 基于区域的分割
-> - 基于图论的分割
-> - 基于能量泛函的分割
+> ``` xml
+> 基于阈值的分割
+> 基于边缘的分割
+> 基于区域的分割
+> 基于图论的分割
+> 基于能量泛函的分割
+> ```
 
 还不懂什么是语义分割，先看这篇文章：[十分钟看懂图像语义分割技术](https://www.leiphone.com/news/201705/YbRHBVIjhqVBP0X5.html)
 
@@ -108,8 +133,12 @@
 
 
 
+### (4) Object Detection(目标检测)
 
-### Reinforce Learning(强化学习/增强学习)
+
+
+
+### (5) Reinforce Learning(强化学习/增强学习)
 
 #### RL-Articles
 
@@ -117,7 +146,9 @@
 
 
 
-## Questions
+
+
+## 2. Questions
 
 
 
@@ -125,7 +156,7 @@
 
 
 
-## Competition
+## 3. Competition
 
 Kaggle：https://www.kaggle.com/
 
@@ -133,56 +164,46 @@ Kaggle：https://www.kaggle.com/
 
 
 
-## Papers-download-links
+## 4. Papers-Links
 
 
 
 
 
+## 5. Interview
+
+- 陈恩加：[自己整理的一点和深度学习相关的面试考点 - 知乎](https://zhuanlan.zhihu.com/p/48374690)
+- 
 
 
-## Resources
 
-### Articles
+## 6. Resources
 
-- 阮一峰：[神经网络入门](http://www.ruanyifeng.com/blog/2017/07/neural-network.html)
-- 阮一峰：[如何识别图像边缘](http://www.ruanyifeng.com/blog/2016/07/edge-recognition.html)
-- hanbingtao 《零基础入门深度学习》系列文章：https://www.zybuluo.com/hanbingtao/note/433855
-- Charlotte77：[【深度学习系列】卷积神经网络CNN原理详解(一)——基本原理](https://www.cnblogs.com/charlotte77/p/7759802.html)
-- Charlotte77：[一文弄懂神经网络中的反向传播法——BackPropagation](https://www.cnblogs.com/charlotte77/p/5629865.html )
-
-系列文章：
-
-- [MachineLP博客目录](https://blog.csdn.net/u014365862/article/details/78422372)
-- [《零基础入门深度学习》系列文章](https://www.zybuluo.com/hanbingtao/note/433855)
-
-（updating…）
-
-### Books
+### (1) Books
 
 这几年，关于人工智能、机器学习、深度学习的书如雨后春笋般，真的很多。下面列举一些大家普遍评价很高以及我有大概浏览过觉得不错的书，当个参考和记录：
 
-1、机器学习
+**1.机器学习**
 
-- 周志华《机器学习》2016年1月
-- 译书：《机器学习实战》2013年6月
+- 周志华《机器学习》，2016年1月
+- Peter Harrington 《机器学习实战》，中文版译者：李锐/李鹏/曲亚东/王斌 ，2013年6月
 
-2、深度学习
+**2.深度学习**
 
 - Michael Nielsen[《Neural Networks and Deep Learning》](http://neuralnetworksanddeeplearning.com/index.html)，中文版《神经网络与深度学习》
-- 中文译本：《Python深度学习》2018年8月
-- 张玉宏《深度学习之美：AI时代的数据处理与最佳实践》2018年6月
-- 张平《图解深度学习与神经网络：从张量到TensorFlow实现》2018年09月
+- 弗朗索瓦•肖莱 《Python深度学习》，中文版译者：张亮，2018年8月  
+- 张玉宏《深度学习之美：AI时代的数据处理与最佳实践》，2018年6月
+- 张平《图解深度学习与神经网络：从张量到TensorFlow实现》，2018年09月
 - 李沐、Aston Zhang 等人《动手学深度学习》预览版：[《动手学深度学习》](https://zh.d2l.ai/)
 
-3、深度学习框架
+**3.深度学习框架** 
 
 - 泽宇/顾思宇 《Tensorflow：实战Google深度学习框架》
 - 黄文坚/唐源《TensorFlow实战》
 - 廖星宇《深度学习入门之PyTorch》 [[代码仓库](https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch)]
 - 陈云《深度学习框架PyTorch：入门与实践》 [[代码仓库](https://github.com/chenyuntc/pytorch-book)]
 
-### Videos
+### (2) Videos
 
 - [Video]偏科普入门，莫烦机器学习教程：<https://morvanzhou.github.io/tutorials/machine-learning/>
 - [Video]适合入门，吴恩达机器学习课程：<https://www.coursera.org/learn/machine-learning>、或 B 站：<https://www.bilibili.com/video/av9912938/>
@@ -196,7 +217,7 @@ Kaggle：https://www.kaggle.com/
 - [Videos]李沐《动手学深度学习》：<https://space.bilibili.com/209599371/channel/detail?cid=23541>，书籍预览版：[《动手学深度学习》](https://zh.d2l.ai/)，代码GitHub地址：[d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh)
 
 
-### GitHub-Repositories
+### (3) GitHub-Repositories
 
 - [DeepLearning-500-questions](https://github.com/scutan90/DeepLearning-500-questions)
 
