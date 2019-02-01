@@ -172,14 +172,15 @@ Kaggle：https://www.kaggle.com/
 - Michael Nielsen[《Neural Networks and Deep Learning》](http://neuralnetworksanddeeplearning.com/index.html)，中文版《神经网络与深度学习》
 - 中文译本：《Python深度学习》2018年8月
 - 张玉宏《深度学习之美：AI时代的数据处理与最佳实践》2018年6月
-- 张平《图解深度学习与神经网络：从张量到TensorFlow实现》2018年09月 
+- 张平《图解深度学习与神经网络：从张量到TensorFlow实现》2018年09月
+- 李沐、Aston Zhang 等人《动手学深度学习》预览版：[《动手学深度学习》](https://zh.d2l.ai/)
 
 3、深度学习框架
 
 - 泽宇/顾思宇 《Tensorflow：实战Google深度学习框架》
 - 黄文坚/唐源《TensorFlow实战》
-- 廖星宇《深度学习入门之PyTorch》 [[代码仓库]](https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch)
-- 陈云《深度学习框架PyTorch：入门与实践》 [[代码仓库]](https://github.com/chenyuntc/pytorch-book)
+- 廖星宇《深度学习入门之PyTorch》 [[代码仓库](https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch)]
+- 陈云《深度学习框架PyTorch：入门与实践》 [[代码仓库](https://github.com/chenyuntc/pytorch-book)]
 
 ### Videos
 
@@ -192,7 +193,7 @@ Kaggle：https://www.kaggle.com/
 - [Video]李宏毅_机器学习，B 站观看：<https://www.bilibili.com/video/av10590361/>
 - [Video]李宏毅_深度学习，B 站观看：<https://www.bilibili.com/video/av9770302/>
 - [Video]深度学习计算机视觉课程，李飞飞_斯坦福 CS231n 课程，B 站观看：<https://www.bilibili.com/video/av13260183/>（中文字幕）
-- [Videos]李沐《动手学深度学习》：<https://space.bilibili.com/209599371>，GitHub地址：<https://github.com/diveintodeeplearning/d2l-zh>
+- [Videos]李沐《动手学深度学习》：<https://space.bilibili.com/209599371/channel/detail?cid=23541>，书籍预览版：[《动手学深度学习》](https://zh.d2l.ai/)，代码GitHub地址：[d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh)
 
 
 ### GitHub-Repositories
