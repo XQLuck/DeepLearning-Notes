@@ -35,11 +35,11 @@
 
 ### (2) 常见模型讲解及实现
 
-##### Paper讲解
+#### Paper讲解
 
 - B 站视频：[深度学习顶级论文算法详解](https://www.bilibili.com/video/av30271782?from=search&seid=9462295319719088186)（含 Faster-RCNN、ResNet 论文讲解）
 
-##### ResNet
+#### ResNet
 
 (1) 讲解
 
@@ -60,40 +60,39 @@
 
 #### semseg-Aticles
 
-[图像分割 传统方法 整理](https://zhuanlan.zhihu.com/p/30732385)
+①什么是图像分割？
 
-> 图片分割根据灰度、颜色、纹理、和形状等特征将图像进行划分区域，让区域间显差异性，区域内呈相似性。主要分割方法有：
->
-> ``` xml
-> 基于阈值的分割
-> 基于边缘的分割
-> 基于区域的分割
-> 基于图论的分割
-> 基于能量泛函的分割
-> ```
+- [图像分割 传统方法 整理](https://zhuanlan.zhihu.com/p/30732385)
+  图片分割根据灰度、颜色、纹理、和形状等特征将图像进行划分区域，让区域间显差异性，区域内呈相似性。主要分割方法有：
 
-还不懂什么是语义分割，先看这篇文章：[十分钟看懂图像语义分割技术](https://www.leiphone.com/news/201705/YbRHBVIjhqVBP0X5.html)
+  ``` xml
+  基于阈值的分割
+  基于边缘的分割
+  基于区域的分割
+  基于图论的分割
+  基于能量泛函的分割
+  ```
 
-(1) 综述类/总结类：
+- [十分钟看懂图像语义分割技术](https://www.leiphone.com/news/201705/YbRHBVIjhqVBP0X5.html)
+
+②综述类/总结类：
 
 - [从全连接层到大型卷积核：深度学习语义分割全指南](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650728920&idx=4&sn=3c51fa0a95742d37222c3e16b77267ca&scene=21#wechat_redirect)
 
 - [分割算法——可以分割一切目标（各种分割总结）](https://mp.weixin.qq.com/s/KcVKKsAyz-eVsyWR0Y812A)
 
-  > 第一种是**编码-译码架构**。编码过程通过池化层逐渐减少位置信息、抽取抽象特征；译码过程逐渐恢复位置信息。一般译码与编码间有直接的连接。该类架构中 U-net 是最流行的。
-  >
-  > 第二种是**膨胀卷积** (dilated convolutions) 【这个核心技术值得去阅读学习】，抛弃了池化层。
+  第一种是**编码-译码架构**。编码过程通过池化层逐渐减少位置信息、抽取抽象特征；译码过程逐渐恢复位置信息。一般译码与编码间有直接的连接。该类架构中 U-net 是最流行的。
+  第二种是**膨胀卷积** (dilated convolutions) 【这个核心技术值得去阅读学习】，抛弃了池化层。
 
 - [一文概览主要语义分割网络：FCN,SegNet,U-Net...](https://www.tinymind.cn/articles/410)
+  该文为译文，介绍了很多语义分割的深度学习模型，包括半监督下的语义分割，可以大致看下。
 
-  > 该文为译文，介绍了很多语义分割的深度学习模型，包括半监督下的语义分割，可以大致看下。
-
-(2) 深度学习语义分割模型的介绍：
+③深度学习语义分割模型的介绍：
 
 - [语义分割(semantic segmentation) 常用神经网络介绍对比-FCN SegNet U-net DeconvNet](https://blog.csdn.net/zhyj3038/article/details/71195262)
 - [深度学习（十九）——FCN, SegNet, DeconvNet, DeepLab, ENet, GCN](https://blog.csdn.net/antkillerfarm/article/details/79524417)
 
-图像分割的衡量指标：
+④图像分割的衡量指标：
 
 - [图像分割的衡量指标详解](https://blog.csdn.net/qq_37274615/article/details/78957962)
 
@@ -125,17 +124,14 @@
 
 #### semseg-Videos
 
-- [浙大博士生刘汉唐：带你回顾图像分割的经典算法](http://www.mooc.ai/course/414/learn#lesson/2266)（需要注册才能观看）
-
-遥感图像分割：
-
-- [197期\_张觅\_基于深度卷积网络的遥感影像语义分割层次认知方法](https://www.bilibili.com/video/av24599502?from=search&seid=11210211322309323243)
+- [浙大博士生刘汉唐：带你回顾图像分割的经典算法](http://www.mooc.ai/course/414/learn#lesson/2266)（需要注册才能观看~）
+- [197期\_张觅\_基于深度卷积网络的遥感影像语义分割层次认知方法](https://www.bilibili.com/video/av24599502?from=search&seid=11210211322309323243)（关于遥感图像语义分割的，但听得不是很清楚~）
 
 
 
 ### (4) Object Detection(目标检测)
 
-
+（待更……）
 
 
 ### (5) Reinforce Learning(强化学习/增强学习)
@@ -143,8 +139,6 @@
 #### RL-Articles
 
 - 雷锋网：[深度学习新星：GAN的基本原理、应用和走向](https://www.leiphone.com/news/201701/Kq6FvnjgbKK8Lh8N.html)
-
-
 
 
 
@@ -158,7 +152,11 @@
 
 ## 3. Competition
 
-Kaggle：https://www.kaggle.com/
+(1) Kaggle
+
+Kaggle官网：https://www.kaggle.com/
+
+(2) 天池
 
 天池AI开发者社区：https://tianchi.aliyun.com/home/
 
