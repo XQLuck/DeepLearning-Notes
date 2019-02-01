@@ -16,16 +16,26 @@
 
 ## 1. Learning
 
-### (1) CNN
+### (1) Basic
 
-入门文章：
+科普文章：
+
+- [推荐 | 机器学习经典总结，入门必读【17000字，可下载PDF】](https://mp.weixin.qq.com/s?__biz=MzIxODM4MjA5MA==&mid=2247485716&idx=1&sn=5b182c1c0b6578b1b1f3b75878ec1364&chksm=97ea2371a09daa6713afbe506d2bc40a7b2062be151c58425cefabf6cb3c41de37e9f51fdb0b&mpshare=1&scene=1&srcid=1209sLVUbZIHaCnoa9sLlfZ4#rd)
+- [一图看懂| 人工智能知识体系大全](https://mp.weixin.qq.com/s?__biz=MzU2MDc1MjEyMQ==&mid=2247486182&amp;idx=1&amp;sn=6174593f5862193e98cda311022aeb94&source=41#wechat_redirect)
+- [云计算、大数据和人工智能这么火，究竟是什么关系？](https://mp.weixin.qq.com/s?__biz=MzU2MDc1MjEyMQ==&mid=2247486185&amp;idx=1&amp;sn=0690fac9da75b1ea9f44c4f79df461a9&source=41#wechat_redirect)
+
+机器学习：
+
+- [机器学习中常见4种学习方法、13种算法和27张速查表！](https://cloud.tencent.com/developer/article/1029070)
+
+深度学习：
 
 - 阮一峰：[神经网络入门](http://www.ruanyifeng.com/blog/2017/07/neural-network.html)
 - 阮一峰：[如何识别图像边缘](http://www.ruanyifeng.com/blog/2016/07/edge-recognition.html)
 - Charlotte77：[【深度学习系列】卷积神经网络CNN原理详解(一)——基本原理](https://www.cnblogs.com/charlotte77/p/7759802.html)
 - Charlotte77：[一文弄懂神经网络中的反向传播法——BackPropagation](https://www.cnblogs.com/charlotte77/p/5629865.html )
 
-系列文章：
+深度学习系列文章：
 
 - MachineLP：[MachineLP博客目录](https://blog.csdn.net/u014365862/article/details/78422372)
 - hanbingtao：[《零基础入门深度学习》系列文章](https://www.zybuluo.com/hanbingtao/note/433855)
@@ -176,22 +186,15 @@ Kaggle官网：https://www.kaggle.com/
 ### (2) Models
 
 - [1989]LeNet：《Gradient-Based Learning Applied to document Recognition》{[Paper](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)}
-
 - [2012]AlexNet：《ImageNet Classification with Deep Convolutional
   Neural Networks》{[Paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)}
-
 - [2014]Inception v1：《Going deeper with convolutions》{[Paper](https://arxiv.org/abs/1409.4842)}
 
   注：先前叫 GoogLeNet，现在简单地被称为 Inception vN，其中 N 指的是由 Google 定的版本号。
-
 - [2014]VGGNet：《Very Deep Convolutional Networks for Large-Scale Image Recognition》{[Paper](https://arxiv.org/abs/1409.1556v6)}
-
 - [2015]Inception v2：《Batch Normalization Accelerating Deep Network Training by Reducing Internal Covariate Shift》{[Paper](https://arxiv.org/abs/1502.03167)}
-
 - [2015]Inception v3：《Rethinking the Inception Architecture for Computer Vision》{[Paper](https://arxiv.org/abs/1512.00567)}
-
 - [2015]ResNet：《Deep Residual Learning for Image Recognition》{[Paper](https://arxiv.org/abs/1512.03385)}
-
 - [2016]Inception v4：《Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning》{[Paper](https://arxiv.org/abs/1602.07261)}
 
 
@@ -241,6 +244,7 @@ Kaggle官网：https://www.kaggle.com/
 
 **1.机器学习**
 
+- 《写给人类的机器学习》译者：[飞龙](https://github.com/wizardforcel)（等）；原书：[Machine Learning for Humans](https://medium.com/machine-learning-for-humans/)
 - 周志华《机器学习》，2016年1月
 - Peter Harrington 《机器学习实战》，中文版译者：李锐/李鹏/曲亚东/王斌 ，2013年6月  [[GitHub代码仓库](https://github.com/pbharrin/machinelearninginaction)]
 
