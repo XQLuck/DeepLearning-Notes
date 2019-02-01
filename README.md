@@ -10,6 +10,7 @@
 - [4. Papers-Links](#4-Papers-Links)
 - [5. Interview](#5-Interview)
 - [6. Resources](#6-Resources)
+- [7. Thinking](#7-Thinking)
 
 <!-- /TOC -->
 
@@ -167,7 +168,61 @@ Kaggle官网：https://www.kaggle.com/
 
 ## 4. Papers-Links
 
+### (1) Basics
 
+- 《A guide to convolution arithmetic for deep》{[Paper](https://arxiv.org/abs/1603.07285)}
+- 《Bag of Tricks for Image Classification with Convolutional Neural Networks》{[Paper](https://arxiv.org/abs/1812.01187)}
+
+### (2) Models
+
+- [1989]LeNet：《Gradient-Based Learning Applied to document Recognition》{[Paper](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)}
+
+- [2012]AlexNet：《ImageNet Classification with Deep Convolutional
+  Neural Networks》{[Paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)}
+
+- [2014]Inception v1：《Going deeper with convolutions》{[Paper](https://arxiv.org/abs/1409.4842)}
+
+  注：先前叫 GoogLeNet，现在简单地被称为 Inception vN，其中 N 指的是由 Google 定的版本号。
+
+- [2014]VGGNet：《Very Deep Convolutional Networks for Large-Scale Image Recognition》{[Paper](https://arxiv.org/abs/1409.1556v6)}
+
+- [2015]Inception v2：《Batch Normalization Accelerating Deep Network Training by Reducing Internal Covariate Shift》{[Paper](https://arxiv.org/abs/1502.03167)}
+
+- [2015]Inception v3：《Rethinking the Inception Architecture for Computer Vision》{[Paper](https://arxiv.org/abs/1512.00567)}
+
+- [2015]ResNet：《Deep Residual Learning for Image Recognition》{[Paper](https://arxiv.org/abs/1512.03385)}
+
+- [2016]Inception v4：《Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning》{[Paper](https://arxiv.org/abs/1602.07261)}
+
+
+
+### (3) Images segmentation
+
+- **FCN：**《Fully Convolutional Networks for Semantic Segmentation》 [[Paper-v1]](https://arxiv.org/abs/1411.4038v1)  [[Paper-v2]](https://arxiv.org/abs/1411.4038v2)（最新提交时间：2015.03.08）	
+- **U-Net：**《U-Net: Convolutional Networks for Biomedical Image Segmentation》[[Paper]](https://arxiv.org/abs/1505.04597)（最新提交时间：2015.05.18）
+- **SegNet：**《SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation》[[Paper-v1]](https://arxiv.org/abs/1511.00561v1)  [[Paper-v2]](https://arxiv.org/abs/1511.00561v2)  [[Paper-v3]](https://arxiv.org/abs/1511.00561v3)（最新提交时间：2016.11.10）
+- Dilated Convolutions：《Multi-Scale Context Aggregation by Dilated Convolutions》[[Paper-v1]](https://arxiv.org/abs/1511.07122v1)  [[Paper-v2]](https://arxiv.org/abs/1511.07122v2)  [[Paper-v3]](https://arxiv.org/abs/1511.07122v3)（最新提交时间：2016.04.30）
+- DeconvNet：《Learning Deconvolution Network for Semantic Segmentation》[[Paper]](https://arxiv.org/abs/1505.04366)（最新提交时间：2015.05.17）
+- RefineNet：《RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation》[[Paper-v1]](https://arxiv.org/abs/1611.06612v1)  [[Paper-v2]](https://arxiv.org/abs/1611.06612v2)  [[Paper-v3]](https://arxiv.org/abs/1611.06612v3)（最新提交时间：2016.11.25）
+- PSPNet：《Pyramid Scene Parsing Network》[[Paper-v1]](https://arxiv.org/abs/1612.01105v1)  [[Paper-v2]](https://arxiv.org/abs/1612.01105v2)（最新提交时间：2017.04.27）
+- Large Kernel Matters：《Large Kernel Matters -- Improve Semantic Segmentation by Global Convolutional Network》[[Paper]](https://arxiv.org/abs/1703.02719)（最新提交时间：2017.03.08）
+- **DeepLab 系列：** 
+  - DeepLab v1：《Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs》[Paper-v1](https://arxiv.org/abs/1412.7062v1)  [[Paper-v2]](https://arxiv.org/abs/1412.7062v2)  [[Paper-v3]](https://arxiv.org/abs/1412.7062v3)  [[Paper-v4]](https://arxiv.org/abs/1412.7062v4)（最新提交时间 ：2016.06.07）
+  - DeepLab v2：《DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs》[[Paper-v1]](https://arxiv.org/abs/1606.00915v1)  [[Paper-v2]](https://arxiv.org/abs/1606.00915v2)（最新提交时间：2017.05.12）
+  - DeepLab v3：《Rethinking Atrous Convolution for Semantic Image Segmentation》[[Paper-v1]](https://arxiv.org/abs/1706.05587v1)  [[Paper-v2]](https://arxiv.org/abs/1706.05587v2)  [[Paper-v3]](https://arxiv.org/abs/1706.05587v3)（最新提交时间：2017.12.05）
+  - DeepLab v3+：《Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation》[[Paper-v1]](https://arxiv.org/abs/1802.02611v1) [[Paper-v2]](https://arxiv.org/abs/1802.02611v2) [[Paper-v3]](https://arxiv.org/abs/1802.02611v3)（最新提交时间：2018.08.22）
+- NAS：《Searching for Efficient Multi-Scale Architectures for Dense Image Prediction》[Paper-v1](https://arxiv.org/abs/1809.04184)（提交时间：2018.09.11）
+
+
+
+### (4) Object Detection
+
+- R-CNN：《Rich feature hierarchies for accurate object detection and semantic segmentation》[Paper](https://arxiv.org/abs/1311.2524)
+- Fast R-CNN：《Fast R-CNN》 [Paper](https://arxiv.org/abs/1504.08083)
+- Faster R-CNN：《Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks》 [Paper](https://arxiv.org/abs/1506.01497)
+- Mask R-CNN ：《Mask R-CNN》 [Paper](https://arxiv.org/abs/1703.06870)
+
+### (5) Others
 
 
 
@@ -182,12 +237,12 @@ Kaggle官网：https://www.kaggle.com/
 
 ### (1) Books
 
-这几年，关于人工智能、机器学习、深度学习的书如雨后春笋般，真的很多。下面列举一些大家普遍评价很高以及我有大概浏览过觉得不错的书，当个参考和记录：
+这两年关于人工智能特别是深度学习的书如雨后春笋很多。下面列举一些被大家普遍评价较高以及我有大概浏览过觉得不错的书，当个参考和记录：
 
 **1.机器学习**
 
 - 周志华《机器学习》，2016年1月
-- Peter Harrington 《机器学习实战》，中文版译者：李锐/李鹏/曲亚东/王斌 ，2013年6月
+- Peter Harrington 《机器学习实战》，中文版译者：李锐/李鹏/曲亚东/王斌 ，2013年6月  [[GitHub代码仓库](https://github.com/pbharrin/machinelearninginaction)]
 
 **2.深度学习**
 
@@ -196,6 +251,7 @@ Kaggle官网：https://www.kaggle.com/
 - 张玉宏《深度学习之美：AI时代的数据处理与最佳实践》，2018年6月
 - 张平《图解深度学习与神经网络：从张量到TensorFlow实现》，2018年09月
 - 李沐、Aston Zhang 等人《动手学深度学习》预览版：[《动手学深度学习》](https://zh.d2l.ai/)
+- 邱锡鹏《神经网络与深度学习》：[在线阅读](https://nndl.github.io/)
 
 **3.深度学习框架** 
 
@@ -217,25 +273,29 @@ Kaggle官网：https://www.kaggle.com/
 - [Video]深度学习计算机视觉课程，李飞飞_斯坦福 CS231n 课程，B 站观看：<https://www.bilibili.com/video/av13260183/>（中文字幕）
 - [Videos]李沐《动手学深度学习》：<https://space.bilibili.com/209599371/channel/detail?cid=23541>，书籍预览版：[《动手学深度学习》](https://zh.d2l.ai/)，代码GitHub地址：[d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh)
 
+### (3) GitHub
 
-### (3) GitHub-Repositories
+- [apachecn/AiLearning](https://github.com/apachecn/AiLearning)
 
 - [DeepLearning-500-questions](https://github.com/scutan90/DeepLearning-500-questions)
 
-  > 深度学习500问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述，以帮助自己及有需要的读者。 全书分为15个章节，近20万字。由于水平有限，书中不妥之处恳请广大读者批评指正。 未完待续...
+  深度学习500问，以问答形式对常用的概率知识、线性代数、机器学习、深度学习、计算机视觉等热点问题进行阐述，以帮助自己及有需要的读者。 全书分为15个章节，近20万字。由于水平有限，书中不妥之处恳请广大读者批评指正。 未完待续...
 
-- 吴恩达的机器学习&深度学习课程笔记：http://www.ai-start.com/
-  > 本网站是一个公益性网站，致力于人工智能（AI）方面的课程的翻译、笔记分享等。
-  >
-  > 本人2014年下半年开始翻译吴恩达老师的机器学习课程字幕，并写了课程的中文笔记。笔记被下载了几万次，应该帮助了不少人，也有很多人一直在帮助我，现在我把笔记的word原稿和markdown原稿分享给大家。
-  >
-  > ……
-  >
-  > ——By 黄海广
+- [AI初学者--（机器学习爱好者）](http://www.ai-start.com/)
+
+  本网站是一个公益性网站，致力于人工智能（AI）方面的课程的翻译、笔记分享等。
+
+  本人2014年下半年开始翻译吴恩达老师的机器学习课程字幕，并写了课程的中文笔记。笔记被下载了几万次，应该帮助了不少人，也有很多人一直在帮助我，现在我把笔记的word原稿和markdown原稿分享给大家。
+
+  …… ——By 黄海广
 
 - [daily-paper-computer-vision](https://github.com/amusi/daily-paper-computer-vision)
 
-  > 记录每天整理的计算机视觉/深度学习/机器学习相关方向的论文。
+  记录每天整理的计算机视觉/深度学习/机器学习相关方向的论文。
+
+## 7. Thinking
+
+- [周志华：关于机器学习的一点思考](https://mp.weixin.qq.com/s/sEZM_o5D6AhyMgvocbsFhw)（周老师的观点很客观、清晰，建议看看~）
 
 
 <div align="right">
