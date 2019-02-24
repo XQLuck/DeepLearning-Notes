@@ -7,10 +7,11 @@
 - [1. Learning](#1-Learning)
 - [2. Questions](#2-Questions)
 - [3. Competition](#3-Competition)
-- [4. Papers-Links](#4-Papers-Links)
+- [4. Papers](#4-Papers)
 - [5. Interview](#5-Interview)
 - [6. Resources](#6-Resources)
 - [7. Thinking](#7-Thinking)
+- [Journals](#Journals)
 
 <!-- /TOC -->
 
@@ -176,54 +177,54 @@ Kaggle官网：https://www.kaggle.com/
 
 
 
-## 4. Papers-Links
+## 4. Papers
 
 ### (1) Basics
 
-- 《A guide to convolution arithmetic for deep》{[Paper](https://arxiv.org/abs/1603.07285)}
-- 《Bag of Tricks for Image Classification with Convolutional Neural Networks》{[Paper](https://arxiv.org/abs/1812.01187)}
+- 《A guide to convolution arithmetic for deep》[[Paper](https://arxiv.org/abs/1603.07285)]
+- 《Bag of Tricks for Image Classification with Convolutional Neural Networks》[[Paper](https://arxiv.org/abs/1812.01187)]
 
 ### (2) Models
 
-- [1989]LeNet：《Gradient-Based Learning Applied to document Recognition》{[Paper](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)}
+- [1989]LeNet：《Gradient-Based Learning Applied to document Recognition》[[Paper](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)]
 - [2012]AlexNet：《ImageNet Classification with Deep Convolutional
-  Neural Networks》{[Paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)}
-- [2014]Inception v1：《Going deeper with convolutions》{[Paper](https://arxiv.org/abs/1409.4842)}
+  Neural Networks》[[Paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)]
+- [2014]Inception v1：《Going deeper with convolutions》[[Paper](https://arxiv.org/abs/1409.4842)]]
 
   注：先前叫 GoogLeNet，现在简单地被称为 Inception vN，其中 N 指的是由 Google 定的版本号。
-- [2014]VGGNet：《Very Deep Convolutional Networks for Large-Scale Image Recognition》{[Paper](https://arxiv.org/abs/1409.1556v6)}
-- [2015]Inception v2：《Batch Normalization Accelerating Deep Network Training by Reducing Internal Covariate Shift》{[Paper](https://arxiv.org/abs/1502.03167)}
-- [2015]Inception v3：《Rethinking the Inception Architecture for Computer Vision》{[Paper](https://arxiv.org/abs/1512.00567)}
-- [2015]ResNet：《Deep Residual Learning for Image Recognition》{[Paper](https://arxiv.org/abs/1512.03385)}
-- [2016]Inception v4：《Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning》{[Paper](https://arxiv.org/abs/1602.07261)}
+- [2014]VGGNet：《Very Deep Convolutional Networks for Large-Scale Image Recognition》[[Paper](https://arxiv.org/abs/1409.1556v6)]
+- [2015]Inception v2：《Batch Normalization Accelerating Deep Network Training by Reducing Internal Covariate Shift》[[Paper](https://arxiv.org/abs/1502.03167)]
+- [2015]Inception v3：《Rethinking the Inception Architecture for Computer Vision》[[Paper](https://arxiv.org/abs/1512.00567)]
+- [2015]ResNet：《Deep Residual Learning for Image Recognition》[[Paper](https://arxiv.org/abs/1512.03385)]
+- [2016]Inception v4：《Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning》[[Paper](https://arxiv.org/abs/1602.07261)]
 
 
 
 ### (3) Images segmentation
 
-- **FCN：**《Fully Convolutional Networks for Semantic Segmentation》 [[Paper-v1]](https://arxiv.org/abs/1411.4038v1)  [[Paper-v2]](https://arxiv.org/abs/1411.4038v2)（最新提交时间：2015.03.08）	
-- **U-Net：**《U-Net: Convolutional Networks for Biomedical Image Segmentation》[[Paper]](https://arxiv.org/abs/1505.04597)（最新提交时间：2015.05.18）
-- **SegNet：**《SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation》[[Paper-v1]](https://arxiv.org/abs/1511.00561v1)  [[Paper-v2]](https://arxiv.org/abs/1511.00561v2)  [[Paper-v3]](https://arxiv.org/abs/1511.00561v3)（最新提交时间：2016.11.10）
-- Dilated Convolutions：《Multi-Scale Context Aggregation by Dilated Convolutions》[[Paper-v1]](https://arxiv.org/abs/1511.07122v1)  [[Paper-v2]](https://arxiv.org/abs/1511.07122v2)  [[Paper-v3]](https://arxiv.org/abs/1511.07122v3)（最新提交时间：2016.04.30）
-- DeconvNet：《Learning Deconvolution Network for Semantic Segmentation》[[Paper]](https://arxiv.org/abs/1505.04366)（最新提交时间：2015.05.17）
-- RefineNet：《RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation》[[Paper-v1]](https://arxiv.org/abs/1611.06612v1)  [[Paper-v2]](https://arxiv.org/abs/1611.06612v2)  [[Paper-v3]](https://arxiv.org/abs/1611.06612v3)（最新提交时间：2016.11.25）
-- PSPNet：《Pyramid Scene Parsing Network》[[Paper-v1]](https://arxiv.org/abs/1612.01105v1)  [[Paper-v2]](https://arxiv.org/abs/1612.01105v2)（最新提交时间：2017.04.27）
-- Large Kernel Matters：《Large Kernel Matters -- Improve Semantic Segmentation by Global Convolutional Network》[[Paper]](https://arxiv.org/abs/1703.02719)（最新提交时间：2017.03.08）
+- **FCN：**《Fully Convolutional Networks for Semantic Segmentation》 [[Paper-v1](https://arxiv.org/abs/1411.4038v1)]  [[Paper-v2](https://arxiv.org/abs/1411.4038v2)]（最新提交时间：2015.03.08）	
+- **U-Net：**《U-Net: Convolutional Networks for Biomedical Image Segmentation》[[Paper](https://arxiv.org/abs/1505.04597)]（最新提交时间：2015.05.18）
+- **SegNet：**《SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation》[[Paper-v1](https://arxiv.org/abs/1511.00561v1)]  [[Paper-v2](https://arxiv.org/abs/1511.00561v2)]  [[Paper-v3](https://arxiv.org/abs/1511.00561v3)]（最新提交时间：2016.11.10）
+- Dilated Convolutions：《Multi-Scale Context Aggregation by Dilated Convolutions》[[Paper-v1](https://arxiv.org/abs/1511.07122v1)]  [[Paper-v2](https://arxiv.org/abs/1511.07122v2)]  [[Paper-v3](https://arxiv.org/abs/1511.07122v3)]（最新提交时间：2016.04.30）
+- DeconvNet：《Learning Deconvolution Network for Semantic Segmentation》[[Paper](https://arxiv.org/abs/1505.04366)]（最新提交时间：2015.05.17）
+- RefineNet：《RefineNet: Multi-Path Refinement Networks for High-Resolution Semantic Segmentation》[[Paper-v1](https://arxiv.org/abs/1611.06612v1)]  [[Paper-v2](https://arxiv.org/abs/1611.06612v2)]  [[Paper-v3](https://arxiv.org/abs/1611.06612v3)]（最新提交时间：2016.11.25）
+- PSPNet：《Pyramid Scene Parsing Network》[[Paper-v1](https://arxiv.org/abs/1612.01105v1)]  [[Paper-v2](https://arxiv.org/abs/1612.01105v2)]（最新提交时间：2017.04.27）
+- Large Kernel Matters：《Large Kernel Matters -- Improve Semantic Segmentation by Global Convolutional Network》[[Paper](https://arxiv.org/abs/1703.02719)]（最新提交时间：2017.03.08）
 - **DeepLab 系列：** 
-  - DeepLab v1：《Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs》[Paper-v1](https://arxiv.org/abs/1412.7062v1)  [[Paper-v2]](https://arxiv.org/abs/1412.7062v2)  [[Paper-v3]](https://arxiv.org/abs/1412.7062v3)  [[Paper-v4]](https://arxiv.org/abs/1412.7062v4)（最新提交时间 ：2016.06.07）
-  - DeepLab v2：《DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs》[[Paper-v1]](https://arxiv.org/abs/1606.00915v1)  [[Paper-v2]](https://arxiv.org/abs/1606.00915v2)（最新提交时间：2017.05.12）
-  - DeepLab v3：《Rethinking Atrous Convolution for Semantic Image Segmentation》[[Paper-v1]](https://arxiv.org/abs/1706.05587v1)  [[Paper-v2]](https://arxiv.org/abs/1706.05587v2)  [[Paper-v3]](https://arxiv.org/abs/1706.05587v3)（最新提交时间：2017.12.05）
-  - DeepLab v3+：《Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation》[[Paper-v1]](https://arxiv.org/abs/1802.02611v1) [[Paper-v2]](https://arxiv.org/abs/1802.02611v2) [[Paper-v3]](https://arxiv.org/abs/1802.02611v3)（最新提交时间：2018.08.22）
-- NAS：《Searching for Efficient Multi-Scale Architectures for Dense Image Prediction》[Paper-v1](https://arxiv.org/abs/1809.04184)（提交时间：2018.09.11）
+  - DeepLab v1：《Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs》[[Paper-v1](https://arxiv.org/abs/1412.7062v1)]  [[Paper-v2](https://arxiv.org/abs/1412.7062v2)]  [[Paper-v3](https://arxiv.org/abs/1412.7062v3)]  [[Paper-v4](https://arxiv.org/abs/1412.7062v4)]（最新提交时间 ：2016.06.07）
+  - DeepLab v2：《DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs》[[Paper-v1](https://arxiv.org/abs/1606.00915v1)]  [[Paper-v2](https://arxiv.org/abs/1606.00915v2)]（最新提交时间：2017.05.12）
+  - DeepLab v3：《Rethinking Atrous Convolution for Semantic Image Segmentation》[[Paper-v1](https://arxiv.org/abs/1706.05587v1)]  [[Paper-v2](https://arxiv.org/abs/1706.05587v2)]  [[Paper-v3](https://arxiv.org/abs/1706.05587v3)]（最新提交时间：2017.12.05）
+  - DeepLab v3+：《Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation》[[Paper-v1](https://arxiv.org/abs/1802.02611v1)] [[Paper-v2](https://arxiv.org/abs/1802.02611v2)] [[Paper-v3](https://arxiv.org/abs/1802.02611v3)]（最新提交时间：2018.08.22）
+- NAS：《Searching for Efficient Multi-Scale Architectures for Dense Image Prediction》[[Paper-v1](https://arxiv.org/abs/1809.04184)]（提交时间：2018.09.11）
 
 
 
 ### (4) Object Detection
 
-- R-CNN：《Rich feature hierarchies for accurate object detection and semantic segmentation》[Paper](https://arxiv.org/abs/1311.2524)
-- Fast R-CNN：《Fast R-CNN》 [Paper](https://arxiv.org/abs/1504.08083)
-- Faster R-CNN：《Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks》 [Paper](https://arxiv.org/abs/1506.01497)
-- Mask R-CNN ：《Mask R-CNN》 [Paper](https://arxiv.org/abs/1703.06870)
+- R-CNN：《Rich feature hierarchies for accurate object detection and semantic segmentation》[[Paper](https://arxiv.org/abs/1311.2524)]
+- Fast R-CNN：《Fast R-CNN》 [[Paper](https://arxiv.org/abs/1504.08083)]
+- Faster R-CNN：《Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks》 [[Paper](https://arxiv.org/abs/1506.01497)]
+- Mask R-CNN ：《Mask R-CNN》 [[Paper](https://arxiv.org/abs/1703.06870)]
 
 ### (5) Others
 
@@ -300,6 +301,18 @@ Kaggle官网：https://www.kaggle.com/
 ## 7. Thinking
 
 - [周志华：关于机器学习的一点思考](https://mp.weixin.qq.com/s/sEZM_o5D6AhyMgvocbsFhw)（周老师的观点很客观、清晰，建议看看~）
+
+
+
+## Journals
+
+[论文收录平台 ( SCI、EI 等 ) 详细说明 | jiyiren](https://jiyiren.github.io/2017/11/18/papersci/)
+
+[SCI、EI、核心期刊 这些东西等级是怎么区分的？ - 知乎](https://www.zhihu.com/question/31558495)
+
+[SCI索引、SCI-E索引、SSCI和EI索引的区别，期刊验证查询 | 数据学习（DataLearner）](https://www.datalearner.com/journal_confirm)
+
+[计算机学术期刊、会议分类等级 - 小白 - CSDN博客](https://blog.csdn.net/zhouxinxin0202/article/details/79489977)
 
 
 <div align="right">
