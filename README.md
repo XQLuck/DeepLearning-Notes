@@ -68,7 +68,7 @@
 
 更多内容请看我单独写的一个文档：[ResNet(残差网络).md](./papers-reading/经典神经网络模型解读/ResNet(残差网络).md)
 
-### (3) Images segmentation(图像分割: 语义/实例/场景分割)
+### (3) Images segmentation(语义/实例/场景分割)
 
 #### semseg-Aticles
 
@@ -159,7 +159,7 @@
 
 ## 2. Questions
 
-
+(1) 如何免费云端运行 Python 深度学习框架：[如何在免费云端运行 Python 深度学习框架？-红色石头的个人博客](http://redstonewill.com/1493/?tdsourcetag=s_pcqq_aiomsg)
 
 
 
@@ -306,13 +306,27 @@ Kaggle官网：https://www.kaggle.com/
 
 ## Journals
 
-[论文收录平台 ( SCI、EI 等 ) 详细说明 | jiyiren](https://jiyiren.github.io/2017/11/18/papersci/)
+对期刊和会议的了解：
 
-[SCI、EI、核心期刊 这些东西等级是怎么区分的？ - 知乎](https://www.zhihu.com/question/31558495)
+- [论文收录平台 ( SCI、EI 等 ) 详细说明 | jiyiren](https://jiyiren.github.io/2017/11/18/papersci/)
+- [SCI、EI、核心期刊 这些东西等级是怎么区分的？ - 知乎](https://www.zhihu.com/question/31558495)
+- [SCI索引、SCI-E索引、SSCI和EI索引的区别，期刊验证查询 | 数据学习（DataLearner）](https://www.datalearner.com/journal_confirm)
+- [计算机学术期刊、会议分类等级 - 小白 - CSDN博客](https://blog.csdn.net/zhouxinxin0202/article/details/79489977)
 
-[SCI索引、SCI-E索引、SSCI和EI索引的区别，期刊验证查询 | 数据学习（DataLearner）](https://www.datalearner.com/journal_confirm)
+计算机视觉方向（CV）三大顶级会议：
 
-[计算机学术期刊、会议分类等级 - 小白 - CSDN博客](https://blog.csdn.net/zhouxinxin0202/article/details/79489977)
+- ICCV（IEEE International Conference on Computer Vision，国际计算机视觉大会）
+- CVPR（IEEE Conference on Computer Vision and Pattern Recognition，IEEE国际计算机视觉与模式识别会议）
+- ECCV（European Conference on Computer Vision，欧洲计算机视觉国际会议）
+
+其他顶会：
+
+- AAAI
+- NeurIPS 
+
+News：
+
+- [1300篇！CVPR 2019论文接收结果公布，你上榜了吗？](https://mp.weixin.qq.com/s/uzcEXQ1ePfDEFB2PRmlAbw)
 
 
 <div align="right">
