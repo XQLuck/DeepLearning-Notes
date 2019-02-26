@@ -74,7 +74,7 @@
 
 ### 1.3 语义/实例/场景分割(Images segmentation)
 
-#### semseg-Aticles
+#### (1) 图像分割基础
 
 ①什么是图像分割？
 
@@ -117,7 +117,7 @@
 
 语义分割其实就是对图片的每个像素都做分类。其中，较为重要的语义分割数据集有：VOC2012 以及 MSCOCO。
 
-#### semseg-Repositories
+#### (2) 图像分割仓库
 
 - [semseg](https://github.com/guanfuchen/semseg)
 
@@ -133,7 +133,9 @@
 
   > Semantic Segmentation Suite in TensorFlow. Implement, train, and test new Semantic Segmentation models easily!
 
-#### semseg-Papers
+- [mrgloom/awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)（图像分割论文下载及实现可以在这里找到~）
+
+#### (3) 图像分割论文及最新研究
 
 论文汇集：
 
@@ -141,7 +143,7 @@
 
 
 
-#### semseg-Videos
+#### (4) 图像分割讲解视频
 
 - [浙大博士生刘汉唐：带你回顾图像分割的经典算法](http://www.mooc.ai/course/414/learn#lesson/2266)（需要注册才能观看~）
 - [197期\_张觅\_基于深度卷积网络的遥感影像语义分割层次认知方法](https://www.bilibili.com/video/av24599502?from=search&seid=11210211322309323243)（关于遥感图像语义分割的，但听得不是很清楚~）
@@ -155,7 +157,7 @@
 
 ### 1.5 强化学习/增强学习(Reinforce Learning)
 
-#### RL-Articles
+#### (1) 基础
 
 - 雷锋网：[深度学习新星：GAN的基本原理、应用和走向](https://www.leiphone.com/news/201701/Kq6FvnjgbKK8Lh8N.html)
 
@@ -171,24 +173,20 @@
 
 ## 3. Competition
 
-(1) Kaggle
+(1) Kaggle官网：https://www.kaggle.com/
 
-Kaggle官网：https://www.kaggle.com/
-
-(2) 天池
-
-天池AI开发者社区：https://tianchi.aliyun.com/home/
+(2) 天池AI开发者社区：https://tianchi.aliyun.com/home/
 
 
 
 ## 4. Papers
 
-### (1) Basics
+### 4.1 Basic
 
 - 《A guide to convolution arithmetic for deep》[[Paper](https://arxiv.org/abs/1603.07285)]
 - 《Bag of Tricks for Image Classification with Convolutional Neural Networks》[[Paper](https://arxiv.org/abs/1812.01187)]
 
-### (2) Models
+### 4.2 Models
 
 - [1989]LeNet：《Gradient-Based Learning Applied to document Recognition》[[Paper](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)]
 - [2012]AlexNet：《ImageNet Classification with Deep Convolutional
@@ -202,9 +200,7 @@ Kaggle官网：https://www.kaggle.com/
 - [2015]ResNet：《Deep Residual Learning for Image Recognition》[[Paper](https://arxiv.org/abs/1512.03385)]
 - [2016]Inception v4：《Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning》[[Paper](https://arxiv.org/abs/1602.07261)]
 
-
-
-### (3) Images segmentation
+### 4.3 Images segmentation
 
 - **FCN：**《Fully Convolutional Networks for Semantic Segmentation》 [[Paper-v1](https://arxiv.org/abs/1411.4038v1)]  [[Paper-v2](https://arxiv.org/abs/1411.4038v2)]（最新提交时间：2015.03.08）	
 - **U-Net：**《U-Net: Convolutional Networks for Biomedical Image Segmentation》[[Paper](https://arxiv.org/abs/1505.04597)]（最新提交时间：2015.05.18）
@@ -221,16 +217,14 @@ Kaggle官网：https://www.kaggle.com/
   - DeepLab v3+：《Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation》[[Paper-v1](https://arxiv.org/abs/1802.02611v1)] [[Paper-v2](https://arxiv.org/abs/1802.02611v2)] [[Paper-v3](https://arxiv.org/abs/1802.02611v3)]（最新提交时间：2018.08.22）
 - NAS：《Searching for Efficient Multi-Scale Architectures for Dense Image Prediction》[[Paper-v1](https://arxiv.org/abs/1809.04184)]（提交时间：2018.09.11）
 
-
-
-### (4) Object Detection
+### 4.4 Object Detection
 
 - R-CNN：《Rich feature hierarchies for accurate object detection and semantic segmentation》[[Paper](https://arxiv.org/abs/1311.2524)]
 - Fast R-CNN：《Fast R-CNN》 [[Paper](https://arxiv.org/abs/1504.08083)]
 - Faster R-CNN：《Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks》 [[Paper](https://arxiv.org/abs/1506.01497)]
 - Mask R-CNN ：《Mask R-CNN》 [[Paper](https://arxiv.org/abs/1703.06870)]
 
-### (5) Others
+### 4.5 Others
 
 
 
@@ -243,7 +237,7 @@ Kaggle官网：https://www.kaggle.com/
 
 ## 6. Resources
 
-### (1) Books
+### 6.1 Books
 
 这两年关于人工智能特别是深度学习的书如雨后春笋很多。下面列举一些被大家普遍评价较高以及我有大概浏览过觉得不错的书，当个参考和记录：
 
@@ -269,7 +263,7 @@ Kaggle官网：https://www.kaggle.com/
 - 廖星宇《深度学习入门之PyTorch》 [[代码仓库](https://github.com/L1aoXingyu/code-of-learn-deep-learning-with-pytorch)]
 - 陈云《深度学习框架PyTorch：入门与实践》 [[代码仓库](https://github.com/chenyuntc/pytorch-book)]
 
-### (2) Videos
+### 6.2 Videos
 
 - [Video]偏科普入门，莫烦机器学习教程：<https://morvanzhou.github.io/tutorials/machine-learning/>
 - [Video]适合入门，吴恩达机器学习课程：<https://www.coursera.org/learn/machine-learning>、或 B 站：<https://www.bilibili.com/video/av9912938/>
@@ -282,7 +276,7 @@ Kaggle官网：https://www.kaggle.com/
 - [Video]深度学习计算机视觉课程，李飞飞_斯坦福 CS231n 课程，B 站观看：<https://www.bilibili.com/video/av13260183/>（中文字幕）
 - [Videos]李沐《动手学深度学习》：<https://space.bilibili.com/209599371/channel/detail?cid=23541>，书籍预览版：[《动手学深度学习》](https://zh.d2l.ai/)，代码GitHub地址：[d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh)
 
-### (3) GitHub
+### 6.3 GitHub
 
 - [apachecn/AiLearning](https://github.com/apachecn/AiLearning)
 
