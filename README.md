@@ -17,7 +17,7 @@
 
 ## 1. Learning
 
-### (1) Basic
+### 1.1 深度学习基础
 
 科普文章：
 
@@ -45,19 +45,19 @@
 
 - [变形卷积核、可分离卷积？卷积神经网络中十大拍案叫绝的操作。](https://zhuanlan.zhihu.com/p/28749411)
 
-### (2) 常见模型讲解及实现
+### 1.2 常见模型的讲解及实现
 
-#### Paper讲解
+#### (0) Paper讲解
 
 - B 站视频：[深度学习顶级论文算法详解](https://www.bilibili.com/video/av30271782?from=search&seid=9462295319719088186)（含 Faster-RCNN、ResNet 论文讲解）
 
-#### ResNet
+#### (1) ResNet
 
-(1) 讲解
+讲解
 
 - [深度残差网络（ResNet）](https://ylhao.github.io/2018/05/25/%E6%AE%8B%E5%B7%AE%E7%BD%91%E7%BB%9C%EF%BC%88ResNet%EF%BC%89/)
 
-(2) 实践
+实践
 
 - 代码：[chaipangpang/ResNet_cifar](https://github.com/chaipangpang/ResNet_cifar)
 - ResNet 代码讲解：
@@ -68,7 +68,11 @@
 
 更多内容请看我单独写的一个文档：[ResNet(残差网络).md](./papers-reading/经典神经网络模型解读/ResNet(残差网络).md)
 
-### (3) Images segmentation(语义/实例/场景分割)
+
+
+
+
+### 1.3 语义/实例/场景分割(Images segmentation)
 
 #### semseg-Aticles
 
@@ -144,12 +148,12 @@
 
 
 
-### (4) Object Detection(目标检测)
+### 1.4 目标检测(Object Detection)
 
 （待更……）
 
 
-### (5) Reinforce Learning(强化学习/增强学习)
+### 1.5 强化学习/增强学习(Reinforce Learning)
 
 #### RL-Articles
 
