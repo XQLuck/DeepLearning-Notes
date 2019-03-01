@@ -15,6 +15,8 @@
 
 <!-- /TOC -->
 
+:point_right: 相关语义/实例/场景分割(Images segmentation)的学习见：[图像分割专题](./Notes/images-segmentation/README.md)  &&  [1.3 语义/实例/场景分割(Images segmentation)](#13-语义实例场景分割Images segmentation) 节内容
+
 ## 1. Learning
 
 ### 1.1 深度学习基础
@@ -165,9 +167,9 @@
 
 ## 2. Questions
 
-(1) 如何免费云端运行 Python 深度学习框架：[如何在免费云端运行 Python 深度学习框架？-红色石头的个人博客](http://redstonewill.com/1493/?tdsourcetag=s_pcqq_aiomsg)
+（1）如何免费云端运行 Python 深度学习框架：[如何在免费云端运行 Python 深度学习框架？-红色石头的个人博客](http://redstonewill.com/1493/?tdsourcetag=s_pcqq_aiomsg)
 
-
+（2）什么学习中网络不收敛指的是什么？——①误差一直来回波动，进入不到容忍度内。②跟迭代不收敛或者系统不稳定差不多，上下波动不能趋近一个定值。
 
 
 
