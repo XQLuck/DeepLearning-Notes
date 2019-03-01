@@ -15,7 +15,7 @@
 
 <!-- /TOC -->
 
-:point_right: 相关语义/实例/场景分割(Images segmentation)的学习见：[图像分割专题](./Notes/images-segmentation/README.md)  &&  [1.3 语义/实例/场景分割(Images segmentation)](#13-语义实例场景分割Images segmentation) 节内容
+:point_right: 相关语义/实例/场景分割(Images segmentation)的学习见：[图像分割专题](./Notes/images-segmentation/README.md)  &&  [1.3 语义/实例/场景分割(Images segmentation)](#13-语义实例场景分割images-segmentation) 节内容
 
 ## 1. Learning
 
