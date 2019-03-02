@@ -15,7 +15,9 @@
 
 <!-- /TOC -->
 
-:point_right: 相关语义/实例/场景分割(Images segmentation)的学习见：[图像分割专题](./Notes/images-segmentation/README.md)  &&  [1.3 语义/实例/场景分割(Images segmentation)](#13-语义实例场景分割images-segmentation) 节内容
+:point_right: 关于语义/实例/场景分割(Images segmentation)的学习见：[图像分割专题](./Notes/images-segmentation/README.md)  &&  [1.3 语义/实例/场景分割(Images segmentation)](#13-语义实例场景分割images-segmentation) 节内容~
+
+👉 这里记录一些在学习过程的要点梳理和个人理解：[深度学习要点梳理和个人理解](./Notes/README.md)
 
 ## 1. Learning
 
@@ -69,10 +71,6 @@
 关于残差连接：[resnet中的残差连接，你确定真的看懂了？](https://zhuanlan.zhihu.com/p/42833949)
 
 更多内容请看我单独写的一个文档：[ResNet(残差网络).md](./papers-reading/经典神经网络模型解读/ResNet(残差网络).md)
-
-
-
-
 
 ### 1.3 语义/实例/场景分割(Images segmentation)
 
@@ -150,8 +148,6 @@
 - [浙大博士生刘汉唐：带你回顾图像分割的经典算法](http://www.mooc.ai/course/414/learn#lesson/2266)（需要注册才能观看~）
 - [197期\_张觅\_基于深度卷积网络的遥感影像语义分割层次认知方法](https://www.bilibili.com/video/av24599502?from=search&seid=11210211322309323243)（关于遥感图像语义分割的，但听得不是很清楚~）
 
-
-
 ### 1.4 目标检测(Object Detection)
 
 （待更……）
@@ -193,7 +189,7 @@
 - [1989]LeNet：《Gradient-Based Learning Applied to document Recognition》[[Paper](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)]
 - [2012]AlexNet：《ImageNet Classification with Deep Convolutional
   Neural Networks》[[Paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)]
-- [2014]Inception v1：《Going deeper with convolutions》[[Paper](https://arxiv.org/abs/1409.4842)]]
+- [2014]Inception v1：《Going deeper with convolutions》[[Paper](https://arxiv.org/abs/1409.4842)]
 
   注：先前叫 GoogLeNet，现在简单地被称为 Inception vN，其中 N 指的是由 Google 定的版本号。
 - [2014]VGGNet：《Very Deep Convolutional Networks for Large-Scale Image Recognition》[[Paper](https://arxiv.org/abs/1409.1556v6)]
@@ -300,7 +296,8 @@
 
 ## 7. Thinking
 
-- [周志华：关于机器学习的一点思考](https://mp.weixin.qq.com/s/sEZM_o5D6AhyMgvocbsFhw)（周老师的观点很客观、清晰，建议看看~）
+- [周志华：关于机器学习的一点思考](https://mp.weixin.qq.com/s/sEZM_o5D6AhyMgvocbsFhw)（周老师的观点客观诚恳~）
+- [你知道为什么说深度学习是这时代的炼金术吗？](https://mp.weixin.qq.com/s/y3KqZi68uoWnW_VHV-dtTg)
 
 
 
