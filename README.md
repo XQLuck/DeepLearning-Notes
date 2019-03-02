@@ -19,7 +19,7 @@
 
 👉 这里记录一些在学习过程的要点梳理和个人理解：[深度学习要点梳理和个人理解](./Notes/keypoints/README.md)
 
-👉 深度学习框架的学习，传送门：
+👉 深度学习框架的学习记录，传送门：
 
 - [tensorflow-learning](https://github.com/strivebo/tensorflow-learning/tree/dev)
 - [pytorch-learning](https://github.com/strivebo/pytorch-learning)
