@@ -15,9 +15,11 @@
 
 <!-- /TOC -->
 
-:point_right: 关于语义/实例/场景分割(Images segmentation)的学习见：[图像分割专题](./Notes/images-segmentation/README.md)  &&  [1.3 语义/实例/场景分割(Images segmentation)](#13-语义实例场景分割images-segmentation) 节内容~
+:point_right: 关于图像分割（Image segmentation，含语义/实例/场景分割）的学习见：[图像分割专题](./Notes/images-segmentation/README.md)  &&  [1.3 语义/实例/场景分割(Images segmentation)](#13-语义实例场景分割images-segmentation) 节内容~
 
-👉 这里记录一些在学习过程的要点梳理和个人理解：[深度学习要点梳理和个人理解](./Notes/keypoints/README.md)
+👉 关于目标检测（Object Detection）的学习见：[目标检测专题](./Notes/object-detection/README.md)
+
+👉 这里记录一些在学习过程的要点梳理和个人理解：[深度学习要点梳理和个人理解](./Notes/keypoints/README.md)  [推荐看下]
 
 👉 深度学习之框架学习，传送门：
 
@@ -95,7 +97,7 @@
   基于能量泛函的分割
   ```
 
-- [十分钟看懂图像语义分割技术](https://www.leiphone.com/news/201705/YbRHBVIjhqVBP0X5.html)
+- [十分钟看懂图像语义分割技术 | 雷锋网](https://www.leiphone.com/news/201705/YbRHBVIjhqVBP0X5.html)
 
 ②综述类/总结类：
 
