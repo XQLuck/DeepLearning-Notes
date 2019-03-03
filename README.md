@@ -17,6 +17,9 @@
 
 :point_right: 关于图像分割（Image segmentation，含语义/实例/场景分割）的学习见：[图像分割专题](./Notes/images-segmentation/README.md)  &&  [1.3 语义/实例/场景分割(Images segmentation)](#13-语义实例场景分割images-segmentation) 节内容~
 
+- 语义/实例/场景分割 paper 以及代码实现见本文：[4.3 Images segmentation](#43-images-segmentation) 节
+- 这里顺带插播下关于弱监督下的语义分割研究和工作：[JackieZhangdx/WeakSupervisedSegmentationList](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList)
+
 👉 关于目标检测（Object Detection）的学习见：[目标检测专题](./Notes/object-detection/README.md)
 
 👉 这里记录一些在学习过程的要点梳理和个人理解：[深度学习要点梳理和个人理解](./Notes/keypoints/README.md)  [推荐看下]
@@ -190,20 +193,21 @@
 
 - 《A guide to convolution arithmetic for deep》[[Paper](https://arxiv.org/abs/1603.07285)]
 - 《Bag of Tricks for Image Classification with Convolutional Neural Networks》[[Paper](https://arxiv.org/abs/1812.01187)]
+- （待更。。。
 
 ### 4.2 Models
 
-- [1989]LeNet：《Gradient-Based Learning Applied to document Recognition》[[Paper](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)]
-- [2012]AlexNet：《ImageNet Classification with Deep Convolutional
+- [1989] LeNet：《Gradient-Based Learning Applied to document Recognition》[[Paper](http://vision.stanford.edu/cs598_spring07/papers/Lecun98.pdf)]
+- [2012] AlexNet：《ImageNet Classification with Deep Convolutional
   Neural Networks》[[Paper](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)]
-- [2014]Inception v1：《Going deeper with convolutions》[[Paper](https://arxiv.org/abs/1409.4842)]
+- [2014] Inception v1：《Going deeper with convolutions》[[Paper](https://arxiv.org/abs/1409.4842)]
 
   注：先前叫 GoogLeNet，现在简单地被称为 Inception vN，其中 N 指的是由 Google 定的版本号。
-- [2014]VGGNet：《Very Deep Convolutional Networks for Large-Scale Image Recognition》[[Paper](https://arxiv.org/abs/1409.1556v6)]
-- [2015]Inception v2：《Batch Normalization Accelerating Deep Network Training by Reducing Internal Covariate Shift》[[Paper](https://arxiv.org/abs/1502.03167)]
-- [2015]Inception v3：《Rethinking the Inception Architecture for Computer Vision》[[Paper](https://arxiv.org/abs/1512.00567)]
-- [2015]ResNet：《Deep Residual Learning for Image Recognition》[[Paper](https://arxiv.org/abs/1512.03385)]
-- [2016]Inception v4：《Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning》[[Paper](https://arxiv.org/abs/1602.07261)]
+- [2014] VGGNet：《Very Deep Convolutional Networks for Large-Scale Image Recognition》[[Paper](https://arxiv.org/abs/1409.1556v6)]
+- [2015] Inception v2：《Batch Normalization Accelerating Deep Network Training by Reducing Internal Covariate Shift》[[Paper](https://arxiv.org/abs/1502.03167)]
+- [2015] Inception v3：《Rethinking the Inception Architecture for Computer Vision》[[Paper](https://arxiv.org/abs/1512.00567)]
+- [2015] ResNet：《Deep Residual Learning for Image Recognition》[[Paper](https://arxiv.org/abs/1512.03385)]
+- [2016] Inception v4：《Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning》[[Paper](https://arxiv.org/abs/1602.07261)]
 
 ### 4.3 Images segmentation
 
@@ -221,6 +225,20 @@
   - DeepLab v3：《Rethinking Atrous Convolution for Semantic Image Segmentation》[[Paper-v1](https://arxiv.org/abs/1706.05587v1)]  [[Paper-v2](https://arxiv.org/abs/1706.05587v2)]  [[Paper-v3](https://arxiv.org/abs/1706.05587v3)]（最新提交时间：2017.12.05）
   - DeepLab v3+：《Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation》[[Paper-v1](https://arxiv.org/abs/1802.02611v1)] [[Paper-v2](https://arxiv.org/abs/1802.02611v2)] [[Paper-v3](https://arxiv.org/abs/1802.02611v3)]（最新提交时间：2018.08.22）
 - NAS：《Searching for Efficient Multi-Scale Architectures for Dense Image Prediction》[[Paper-v1](https://arxiv.org/abs/1809.04184)]（提交时间：2018.09.11）
+- （待更。。。
+
+语义分割类的论文合集：
+
+- [语义分割 - Semantic Segmentation Papers - CSDN博客](https://blog.csdn.net/zziahgf/article/details/72639791) | [语义分割 - Semantic Segmentation Papers - AIUAI](https://www.aiuai.cn/aifarm62.html)  | [分类 语义分割 下的文章 - AIUAI](https://www.aiuai.cn/category/segmentation/)
+- [Segmentation - handong1587](https://handong1587.github.io/deep_learning/2015/10/09/segmentation.html)
+
+关于图像分割的代码实现，见：[2-图像分割仓库](#2-图像分割仓库)
+
+- [mrgloom/awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)（图像分割论文下载及实现可以在这里找到~）
+- [GeorgeSeif/Semantic-Segmentation-Suite](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite)
+- [guanfuchen/semseg](https://github.com/guanfuchen/semseg)
+- [AstarLight/Satellite-Segmentation](https://github.com/AstarLight/Satellite-Segmentation)
+- （待补充…
 
 ### 4.4 Object Detection
 
