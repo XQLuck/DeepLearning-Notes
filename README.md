@@ -15,19 +15,23 @@
 
 <!-- /TOC -->
 
-:point_right: 关于图像分割（Image segmentation，含语义/实例/场景分割）的学习见：[图像分割专题](./Notes/images-segmentation/README.md)  &&  [1.3 语义/实例/场景分割(Images segmentation)](#13-语义实例场景分割images-segmentation) 节内容~
+:point_right: 关于图像分割（Image segmentation，含语义/实例/场景分割）的学习见：[图像分割专题](./Notes/images-segmentation/README.md)  &&  本文 [1.3 语义/实例/场景分割(Images segmentation)](#13-语义实例场景分割images-segmentation) 节内容~
 
 - 语义/实例/场景分割 paper 以及代码实现见本文：[4.3 Images segmentation](#43-images-segmentation) 节
-- 这里顺带插播下关于弱监督下的语义分割研究和工作：[JackieZhangdx/WeakSupervisedSegmentationList](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList)
+- 这里顺带插播下关于弱监督下的语义分割的研究和工作：[JackieZhangdx/WeakSupervisedSegmentationList](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList)
 
-👉 关于目标检测（Object Detection）的学习见：[目标检测专题](./Notes/object-detection/README.md)
+:point_right: 该系列文章值得看看：[关于神经网络模型&TensorFlow学习&目标检测模型等内容的系列文章.md](./Notes/关于神经网络模型&TensorFlow学习&目标检测模型等内容的系列文章.md)​
 
-👉 这里记录一些在学习过程的要点梳理和个人理解：[深度学习要点梳理和个人理解](./Notes/keypoints/README.md)  [推荐看下]
+:point_right: 这里记录一些在学习过程的要点梳理和个人理解：[深度学习要点梳理和个人理解](./Notes/keypoints/README.md)  [推荐看下]
 
-👉 深度学习之框架学习，传送门：
+:point_right: 深度学习之框架学习，传送门：
 
 - [tensorflow-learning](https://github.com/strivebo/tensorflow-learning)
 - [pytorch-learning](https://github.com/strivebo/pytorch-learning)
+
+
+
+:point_right: 关于目标检测（Object Detection）的学习见：[目标检测专题](./Notes/object-detection/README.md)
 
 ## 1. Learning
 
