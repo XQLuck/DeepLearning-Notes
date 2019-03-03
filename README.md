@@ -21,7 +21,7 @@
 
 👉 深度学习之框架学习，传送门：
 
-- [tensorflow-learning](https://github.com/strivebo/tensorflow-learning/tree/dev)
+- [tensorflow-learning](https://github.com/strivebo/tensorflow-learning)
 - [pytorch-learning](https://github.com/strivebo/pytorch-learning)
 
 ## 1. Learning

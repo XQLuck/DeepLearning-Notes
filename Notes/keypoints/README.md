@@ -9,9 +9,11 @@
 :notes: 有一些学习要点的笔记和梳理我有随记在「幕布」和「有道云笔记」平台，挺杂乱的，但值得看一看：
 
 - [01-机器学习&深度学习要点小梳理（含资料推荐）](https://mubu.com/doc/2E8oghDU78)
-- [02-卷积神经网络CNN探究（含反卷积、转置卷积、空洞卷积、上采样、下采样）](https://mubu.com/doc/3LbSzN4z-8)
-- [03-CNN网络模型演进（LetNet、AleNet、VGGNet、NIN、GoogleNet、ResNet等）](https://mubu.com/doc/2BFlc9r-B8)
-- [04-语义分割神经网络模型（FCN、UNet、SegNet、PSPNet、Deeplabv1&v2&v3等）](https://mubu.com/doc/1OEfnuDXAc)
+- [02-卷积神经网络CNN探究(含反卷积、转置卷积、空洞卷积、上采样、下采样)](https://mubu.com/doc/3LbSzN4z-8)
+- [03-CNN网络模型演进(LetNet、AleNet、VGGNet、NIN、GoogleNet、ResNet等)](https://mubu.com/doc/2BFlc9r-B8)
+- [04-图像语义分割(含FCN、UNet、SegNet、PSPNet、Deeplabv1&v2&v3等)](https://mubu.com/doc/1OEfnuDXAc)
+- [数据预处理：中心化（又叫零均值化）和标准化（又叫归一化）](https://mubu.com/doc/2qC5u7sGw8)
+- [对softmax，softmax loss和cross entropy的理解](https://mubu.com/doc/T0NtYmnFc)
 - ……
 
 里面的内容有的会继续补充，另外，有新作的要点和内容，我会以分享链接的形式继续更新在上面，不过以上的分享链接也有可能指不定哪天被我取消了，不过关注该仓库即可，日后有时间整理成文至此。
