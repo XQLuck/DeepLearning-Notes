@@ -228,7 +228,7 @@
   - DeepLab v2：《DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs》[[Paper-v1](https://arxiv.org/abs/1606.00915v1)]  [[Paper-v2](https://arxiv.org/abs/1606.00915v2)]（最新提交时间：2017.05.12）
   - DeepLab v3：《Rethinking Atrous Convolution for Semantic Image Segmentation》[[Paper-v1](https://arxiv.org/abs/1706.05587v1)]  [[Paper-v2](https://arxiv.org/abs/1706.05587v2)]  [[Paper-v3](https://arxiv.org/abs/1706.05587v3)]（最新提交时间：2017.12.05）
   - DeepLab v3+：《Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation》[[Paper-v1](https://arxiv.org/abs/1802.02611v1)] [[Paper-v2](https://arxiv.org/abs/1802.02611v2)] [[Paper-v3](https://arxiv.org/abs/1802.02611v3)]（最新提交时间：2018.08.22）
-- NAS：《Searching for Efficient Multi-Scale Architectures for Dense Image Prediction》[[Paper-v1](https://arxiv.org/abs/1809.04184)]（提交时间：2018.09.11）
+- NAS：《Searching for Efficient Multi-Scale Architectures for Dense Image Prediction》[[Paper-v1](https://arxiv.org/abs/1809.04184)]（提交时间：2018.09.11） 相关文章：[语义分割领域开山之作：Google提出用神经网络搜索实现语义分割 | 雷锋网](https://www.leiphone.com/news/201810/hPe93A6N0YSQPF7y.html)
 - （待更。。。
 
 语义分割类的论文合集：
@@ -244,12 +244,20 @@
 - [AstarLight/Satellite-Segmentation](https://github.com/AstarLight/Satellite-Segmentation)
 - （待补充…
 
+一些新的研究：
+
+- [学界 | 上海交大卢策吾团队开源PointSIFT刷新点云语义分割记录](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650745253&idx=5&sn=05ff84805817d2d2a61a36a313d6cff8&chksm=871aeddbb06d64cdd93ff5b62a169084c0f3ed9e2395415e1d435c28f7168e4deb69102c1fa7&mpshare=1&scene=23&srcid=0721mm9a22Lw3RJZvLkWRbZb#rd)
+
 ### 4.4 Object Detection
 
 - R-CNN：《Rich feature hierarchies for accurate object detection and semantic segmentation》[[Paper](https://arxiv.org/abs/1311.2524)]
 - Fast R-CNN：《Fast R-CNN》 [[Paper](https://arxiv.org/abs/1504.08083)]
 - Faster R-CNN：《Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks》 [[Paper](https://arxiv.org/abs/1506.01497)]
 - Mask R-CNN ：《Mask R-CNN》 [[Paper](https://arxiv.org/abs/1703.06870)]
+
+一些新的研究：
+
+- [优于Mask R-CNN，港中文&腾讯优图提出PANet实例分割框架](https://www.jiqizhixin.com/articles/2018-03-12-6)
 
 ### 4.5 Others
 
@@ -259,7 +267,6 @@
 
 - 陈恩加：[自己整理的一点和深度学习相关的面试考点 - 知乎](https://zhuanlan.zhihu.com/p/48374690)
 - 
-
 
 
 ## 6. Resources
@@ -332,7 +339,7 @@
 
 ## Journals
 
-对期刊和会议的了解：
+对期刊和会议的认识：
 
 - [论文收录平台 ( SCI、EI 等 ) 详细说明 | jiyiren](https://jiyiren.github.io/2017/11/18/papersci/)
 - [SCI、EI、核心期刊 这些东西等级是怎么区分的？ - 知乎](https://www.zhihu.com/question/31558495)
@@ -349,6 +356,12 @@
 
 - AAAI
 - NeurIPS 
+
+Q：什么是影响影子？
+
+> 影响因子（Impact Factor，IF）是汤森路透（Thomson Reuters）出品的期刊引证报告（Journal Citation Reports，JCR）中的一项数据。 即某期刊前两年发表的论文在该报告年份（JCR year）中被引用总次数除以该期刊在这两年内发表的论文总数。这是一个国际上通行的期刊评价指标。——from：[影响因子_百度百科](https://baike.baidu.com/item/%E5%BD%B1%E5%93%8D%E5%9B%A0%E5%AD%90)
+
+更多的了解：[对期刊和会议的认识](./journals/对期刊和会议的认识.md)
 
 News：
 
