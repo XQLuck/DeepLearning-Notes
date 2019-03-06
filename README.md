@@ -29,9 +29,19 @@
 - [tensorflow-learning](https://github.com/strivebo/tensorflow-learning)
 - [pytorch-learning](https://github.com/strivebo/pytorch-learning)
 
-
-
 :point_right: 关于目标检测（Object Detection）的学习见：[目标检测专题](./Notes/object-detection/README.md)
+
+---
+
+人工智能最新学术研究和技术实现追寻，可关注：
+
+- [量子位 - 知乎 - 专栏](https://zhuanlan.zhihu.com/qbitai)
+- [机器之心 - 知乎 - 专栏](https://zhuanlan.zhihu.com/jiqizhixin)
+- [计算机视觉论文速递 - 知乎 - 专栏](https://zhuanlan.zhihu.com/c_172507674)
+- [PaperWeekly - 知乎 - 专栏](https://zhuanlan.zhihu.com/paperweekly)
+- ……
+
+
 
 ## 1. Learning
 
@@ -356,10 +366,15 @@
 
 - AAAI
 - NeurIPS 
+- ……
 
 Q：什么是影响影子？
 
 > 影响因子（Impact Factor，IF）是汤森路透（Thomson Reuters）出品的期刊引证报告（Journal Citation Reports，JCR）中的一项数据。 即某期刊前两年发表的论文在该报告年份（JCR year）中被引用总次数除以该期刊在这两年内发表的论文总数。这是一个国际上通行的期刊评价指标。——from：[影响因子_百度百科](https://baike.baidu.com/item/%E5%BD%B1%E5%93%8D%E5%9B%A0%E5%AD%90)
+
+一些网上的分享：
+
+- [发表一篇顶会论文的经验分享 - 勋爵 - 博客园](https://www.cnblogs.com/X-knight/p/9281538.html)
 
 更多的了解：[对期刊和会议的认识](./journals/对期刊和会议的认识.md)
 
