@@ -39,6 +39,7 @@
 - [机器之心 - 知乎 - 专栏](https://zhuanlan.zhihu.com/jiqizhixin)
 - [计算机视觉论文速递 - 知乎 - 专栏](https://zhuanlan.zhihu.com/c_172507674)
 - [PaperWeekly - 知乎 - 专栏](https://zhuanlan.zhihu.com/paperweekly)
+- [计算机视觉life - 知乎 - 专栏](https://zhuanlan.zhihu.com/c_150246914)
 - ……
 
 
@@ -344,6 +345,7 @@
 
 - [周志华：关于机器学习的一点思考](https://mp.weixin.qq.com/s/sEZM_o5D6AhyMgvocbsFhw)（周老师的观点客观诚恳~）
 - [你知道为什么说深度学习是这时代的炼金术吗？](https://mp.weixin.qq.com/s/y3KqZi68uoWnW_VHV-dtTg)
+- [关于对人工智能的思考和看法随记.md](./Notes/关于对人工智能的思考和看法随记.md)
 
 
 
