@@ -17,6 +17,8 @@
 
 👉 推荐该系列文章：[关于神经网络模型&TensorFlow学习&目标检测模型等内容的系列文章.md](./Notes/关于神经网络模型&TensorFlow学习&目标检测模型等内容的系列文章.md)
 
+👉 计算机视觉牛人博客和代码汇总：[计算机视觉牛人博客和代码汇总（全） - findumars - 博客园](https://www.cnblogs.com/findumars/p/5009003.html)
+
 :point_right: 关于图像分割（Image segmentation，含语义/实例/场景分割）的学习见：[图像分割专题](./Notes/images-segmentation/README.md)  &&  本文 [1.3 语义/实例/场景分割(Images segmentation)](#13-语义实例场景分割images-segmentation) 节内容~
 
 - 语义/实例/场景分割 paper 以及代码实现见本文：[4.3 Images segmentation](#43-images-segmentation) 节
@@ -296,7 +298,7 @@
 
 ### 6.1 Books
 
-这两年关于人工智能特别是深度学习的书如雨后春笋很多。下面列举一些被大家普遍评价较高以及我有大概浏览过觉得不错的书，当个参考和记录：
+这两年关于人工智能特别是深度学习的书如雨后春笋不断涌现。下面列举一些被大家普遍评价较高以及我有大概浏览了下觉得不错的书，权当个参考吧：
 
 **1.机器学习**
 
@@ -353,11 +355,18 @@
 
   记录每天整理的计算机视觉/深度学习/机器学习相关方向的论文。
 
+### 6.4 Blog
+
+- [Poll的笔记 - 博客园](http://www.cnblogs.com/maybe2030)
+- [Charlotte77 - 博客园](https://www.cnblogs.com/charlotte77/)
+- [刘建平Pinard - 博客园](https://www.cnblogs.com/pinard/)
+- 
+
 ## 7. Thinking
 
 - [周志华：关于机器学习的一点思考](https://mp.weixin.qq.com/s/sEZM_o5D6AhyMgvocbsFhw)（周老师的观点客观诚恳~）
 - [你知道为什么说深度学习是这时代的炼金术吗？](https://mp.weixin.qq.com/s/y3KqZi68uoWnW_VHV-dtTg)
-- [关于对人工智能的思考和看法随记.md](./Notes/关于对人工智能的思考和看法随记.md)
+- 我的随摘：[关于对人工智能的思考和看法随记.md](./Notes/关于对人工智能的思考和看法随记.md)
 
 
 
