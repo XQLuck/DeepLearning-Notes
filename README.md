@@ -15,14 +15,14 @@
 
 <!-- /TOC -->
 
+👉 推荐该系列文章：[关于神经网络模型&TensorFlow学习&目标检测模型等内容的系列文章.md](./Notes/关于神经网络模型&TensorFlow学习&目标检测模型等内容的系列文章.md)
+
 :point_right: 关于图像分割（Image segmentation，含语义/实例/场景分割）的学习见：[图像分割专题](./Notes/images-segmentation/README.md)  &&  本文 [1.3 语义/实例/场景分割(Images segmentation)](#13-语义实例场景分割images-segmentation) 节内容~
 
 - 语义/实例/场景分割 paper 以及代码实现见本文：[4.3 Images segmentation](#43-images-segmentation) 节
 - 这里顺带插播下关于弱监督下的语义分割的研究和工作：[JackieZhangdx/WeakSupervisedSegmentationList](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList)
 
-:point_right: 该系列文章值得看看：[关于神经网络模型&TensorFlow学习&目标检测模型等内容的系列文章.md](./Notes/关于神经网络模型&TensorFlow学习&目标检测模型等内容的系列文章.md)​
-
-:point_right: 这里记录一些在学习过程的要点梳理和个人理解：[深度学习要点梳理和个人理解](./Notes/keypoints/README.md)  [推荐看下]
+👉 这里记录一些在学习过程的要点梳理和个人理解：[深度学习要点梳理和个人理解](./Notes/keypoints/README.md)  [推荐]
 
 :point_right: 深度学习之框架学习，传送门：
 
@@ -42,7 +42,13 @@
 - [计算机视觉life - 知乎 - 专栏](https://zhuanlan.zhihu.com/c_150246914)
 - ……
 
+---
 
+领域人物及事迹，了解下：
+
+- 孙剑、何恺明：
+  - [谁说高考状元高分低能，24岁时以去雾算法一举成名](https://baike.baidu.com/tashuo/browse/content?id=84a16c8986a54a4bf83ddebc)
+- ……
 
 ## 1. Learning
 
@@ -103,7 +109,7 @@
 
 ①什么是图像分割？
 
-- [图像分割 传统方法 整理](https://zhuanlan.zhihu.com/p/30732385)
+- [图像分割 传统方法 整理](https://zhuanlan.zhihu.com/p/30732385)  [荐看完]
 
   图片分割根据灰度、颜色、纹理、和形状等特征将图像进行划分区域，让区域间显差异性，区域内呈相似性。主要分割方法有：
 
@@ -115,17 +121,21 @@
   基于能量泛函的分割
   ```
 
-- [十分钟看懂图像语义分割技术 | 雷锋网](https://www.leiphone.com/news/201705/YbRHBVIjhqVBP0X5.html)
+- [十分钟看懂图像语义分割技术 | 雷锋网](https://www.leiphone.com/news/201705/YbRHBVIjhqVBP0X5.html)  [荐看完]
 
 ②综述类/总结类：
 
 - [从全连接层到大型卷积核：深度学习语义分割全指南](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650728920&idx=4&sn=3c51fa0a95742d37222c3e16b77267ca&scene=21#wechat_redirect)
 
-- [分割算法——可以分割一切目标（各种分割总结）](https://mp.weixin.qq.com/s/KcVKKsAyz-eVsyWR0Y812A)
+- [分割算法——可以分割一切目标（各种分割总结）](https://mp.weixin.qq.com/s/KcVKKsAyz-eVsyWR0Y812A)  [荐]
 
-  第一种是**编码-译码架构**。编码过程通过池化层逐渐减少位置信息、抽取抽象特征；译码过程逐渐恢复位置信息。一般译码与编码间有直接的连接。该类架构中 U-net 是最流行的。
+  深度学习最初流行的分割方法是，打补丁式的分类方法 (patch classification) 。逐像素地抽取周围像素对中心像素进行分类。由于当时的卷积网络末端都使用全连接层 (full connected layers) ，所以只能使用这种逐像素的分割方法。
 
-  第二种是**膨胀卷积** (dilated convolutions) 【这个核心技术值得去阅读学习】，抛弃了池化层。
+  但是到了 2014 年，来自伯克利的 Fully Convolutional Networks（FCN）卷积网络，去掉了末端的全连接层。随后的语义分割模型基本上都采用了这种结构。除了全连接层，语义分割另一个重要的问题是池化层。池化层能进一步提取抽象特征增加感受域，但是丢弃了像素的位置信息。但是语义分割需要类别标签和原图像对齐，因此需要从新引入像素的位置信息。有两种不同的架构可以解决此像素定位问题。
+
+  第一种是`编码-译码架构`。编码过程通过池化层逐渐减少位置信息、抽取抽象特征；译码过程逐渐恢复位置信息。一般译码与编码间有直接的连接。该类架构中 U-net 是最流行的。
+
+  第二种是`膨胀卷积` (dilated convolutions) 【这个核心技术值得去阅读学习】，抛弃了池化层。
 
 - [一文概览主要语义分割网络：FCN,SegNet,U-Net...](https://www.tinymind.cn/articles/410)
 
@@ -264,6 +274,8 @@
 - R-CNN：《Rich feature hierarchies for accurate object detection and semantic segmentation》[[Paper](https://arxiv.org/abs/1311.2524)]
 - Fast R-CNN：《Fast R-CNN》 [[Paper](https://arxiv.org/abs/1504.08083)]
 - Faster R-CNN：《Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks》 [[Paper](https://arxiv.org/abs/1506.01497)]
+- Yolo
+- SSD
 - Mask R-CNN ：《Mask R-CNN》 [[Paper](https://arxiv.org/abs/1703.06870)]
 
 一些新的研究：
