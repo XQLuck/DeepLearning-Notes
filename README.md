@@ -261,10 +261,23 @@
 
 关于图像分割的代码实现，见：[2-图像分割仓库](#2-图像分割仓库)
 
-- [mrgloom/awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)（图像分割论文下载及实现可以在这里找到~）
+- [mrgloom/awesome-semantic-segmentation](https://github.com/mrgloom/awesome-semantic-segmentation)（含以下内容：
+
+  > - 语义分割
+  > - 实例分割
+  > - 数据集
+  > - Benchmark
+  > - 标注工具
+  > - 医学图像分割
+  > - 卫星图像分割
+  > - ...
+
 - [GeorgeSeif/Semantic-Segmentation-Suite](https://github.com/GeorgeSeif/Semantic-Segmentation-Suite)
+
 - [guanfuchen/semseg](https://github.com/guanfuchen/semseg)
+
 - [AstarLight/Satellite-Segmentation](https://github.com/AstarLight/Satellite-Segmentation)
+
 - （待补充…
 
 一些新的研究：
@@ -378,6 +391,13 @@
 - [SCI、EI、核心期刊 这些东西等级是怎么区分的？ - 知乎](https://www.zhihu.com/question/31558495)
 - [SCI索引、SCI-E索引、SSCI和EI索引的区别，期刊验证查询 | 数据学习（DataLearner）](https://www.datalearner.com/journal_confirm)
 - [计算机学术期刊、会议分类等级 - 小白 - CSDN博客](https://blog.csdn.net/zhouxinxin0202/article/details/79489977)
+- [关于ISI、SCI、EI、IEEE、Elsevier、Springer的理解](https://blog.csdn.net/Neil_Pan/article/details/51848701)
+
+更多的了解：[对期刊和会议的认识.md](./journals/对期刊和会议的认识.md)
+
+如何找论文：[如何找论文 - 知乎](https://zhuanlan.zhihu.com/p/27484748)
+
+长长的论文不知道该从哪里读起，阅读论文没有头绪，拿到一个课题不知道该如何入手，如何快速了解一个课题往往是新晋研究生的最希望掌握的技术：[学科领域文献检索调查方法步骤 - 知乎](https://zhuanlan.zhihu.com/p/49882304)
 
 计算机视觉方向（CV）三大顶级会议：
 
@@ -399,7 +419,7 @@ Q：什么是影响影子？
 
 - [发表一篇顶会论文的经验分享 - 勋爵 - 博客园](https://www.cnblogs.com/X-knight/p/9281538.html)
 
-更多的了解：[对期刊和会议的认识](./journals/对期刊和会议的认识.md)
+
 
 News：
 
