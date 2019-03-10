@@ -15,6 +15,26 @@
 
 <!-- /TOC -->
 
+如何找论文：[如何找论文 - 知乎](https://zhuanlan.zhihu.com/p/27484748)
+
+- [Google 学术搜索](https://scholar.google.com.hk/?hl=zh-CN)
+
+- [百度学术](http://xueshu.baidu.com/)
+
+- [Bing 学术](https://cn.bing.com/academic/?FORM=HDRSC4&setmkt=zh-CN)
+
+- [谷粉学术](https://gfsoso.99lb.net/)
+
+- [Sci-Hub](https://sci-hub.tw/)
+
+  > 只要你有论文的 URL 或者 DOI（Digital Object Identifier）就可以粘贴到搜索框里，点击“Open”就会出现你想要的论文啦。是不是so easy，妈妈再也不用担心我下载不了论文了！
+
+[快搜 - 学术搜索 - 站在巨人的肩膀上](http://scholar.chongbuluo.com/)
+
+长长的论文不知道该从哪里读起，阅读论文没有头绪，拿到一个课题不知道该如何入手，如何快速了解一个课题往往是新晋研究生的最希望掌握的技术：[学科领域文献检索调查方法步骤 - 知乎](https://zhuanlan.zhihu.com/p/49882304)
+
+---
+
 👉 推荐该系列文章：[关于神经网络模型&TensorFlow学习&目标检测模型等内容的系列文章.md](./Notes/关于神经网络模型&TensorFlow学习&目标检测模型等内容的系列文章.md)
 
 👉 计算机视觉牛人博客和代码汇总：[计算机视觉牛人博客和代码汇总（全） - findumars - 博客园](https://www.cnblogs.com/findumars/p/5009003.html)
@@ -394,10 +414,6 @@
 - [关于ISI、SCI、EI、IEEE、Elsevier、Springer的理解](https://blog.csdn.net/Neil_Pan/article/details/51848701)
 
 更多的了解：[对期刊和会议的认识.md](./journals/对期刊和会议的认识.md)
-
-如何找论文：[如何找论文 - 知乎](https://zhuanlan.zhihu.com/p/27484748)
-
-长长的论文不知道该从哪里读起，阅读论文没有头绪，拿到一个课题不知道该如何入手，如何快速了解一个课题往往是新晋研究生的最希望掌握的技术：[学科领域文献检索调查方法步骤 - 知乎](https://zhuanlan.zhihu.com/p/49882304)
 
 计算机视觉方向（CV）三大顶级会议：
 
