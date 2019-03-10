@@ -15,7 +15,9 @@
 
 <!-- /TOC -->
 
-如何找论文：[如何找论文 - 知乎](https://zhuanlan.zhihu.com/p/27484748)
+---
+
+:stars: 如何找论文：[如何找论文 - 知乎](https://zhuanlan.zhihu.com/p/27484748)
 
 - [Google 学术搜索](https://scholar.google.com.hk/?hl=zh-CN)
 
@@ -29,7 +31,7 @@
 
   > 只要你有论文的 URL 或者 DOI（Digital Object Identifier）就可以粘贴到搜索框里，点击“Open”就会出现你想要的论文啦。是不是so easy，妈妈再也不用担心我下载不了论文了！
 
-[快搜 - 学术搜索 - 站在巨人的肩膀上](http://scholar.chongbuluo.com/)
+[中国知网](http://www.cnki.net/)  |  [arXiv](https://arxiv.org/)  |  [快搜 - 学术搜索](http://scholar.chongbuluo.com/)  |  [Web of Science [v.5.29] - 所有数据库 基本检索](http://apps.webofknowledge.com/UA_GeneralSearch_input.do?product=UA&search_mode=GeneralSearch&SID=8Ecas5pkrJVAlSzoqGC&preferencesSaved=)  | …
 
 长长的论文不知道该从哪里读起，阅读论文没有头绪，拿到一个课题不知道该如何入手，如何快速了解一个课题往往是新晋研究生的最希望掌握的技术：[学科领域文献检索调查方法步骤 - 知乎](https://zhuanlan.zhihu.com/p/49882304)
 
@@ -42,7 +44,7 @@
 :point_right: 关于图像分割（Image segmentation，含语义/实例/场景分割）的学习见：[图像分割专题](./Notes/images-segmentation/README.md)  &&  本文 [1.3 语义/实例/场景分割(Images segmentation)](#13-语义实例场景分割images-segmentation) 节内容~
 
 - 语义/实例/场景分割 paper 以及代码实现见本文：[4.3 Images segmentation](#43-images-segmentation) 节
-- 这里顺带插播下关于弱监督下的语义分割的研究和工作：[JackieZhangdx/WeakSupervisedSegmentationList](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList)
+- 这里顺带插播下关于**弱监督下的语义分割**的研究和工作：[JackieZhangdx/WeakSupervisedSegmentationList](https://github.com/JackieZhangdx/WeakSupervisedSegmentationList)
 
 👉 这里记录一些在学习过程的要点梳理和个人理解：[深度学习要点梳理和个人理解](./Notes/keypoints/README.md)  [推荐]
 
