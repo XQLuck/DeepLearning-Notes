@@ -427,6 +427,8 @@
 - NeurIPS 
 - ……
 
+我在网上有下载到一个文件，可以参考看下：[AI_conference_template.xlsx](./journals/assets/AI_conference_template.xlsx)
+
 Q：什么是影响影子？
 
 > 影响因子（Impact Factor，IF）是汤森路透（Thomson Reuters）出品的期刊引证报告（Journal Citation Reports，JCR）中的一项数据。 即某期刊前两年发表的论文在该报告年份（JCR year）中被引用总次数除以该期刊在这两年内发表的论文总数。这是一个国际上通行的期刊评价指标。——from：[影响因子_百度百科](https://baike.baidu.com/item/%E5%BD%B1%E5%93%8D%E5%9B%A0%E5%AD%90)
@@ -435,11 +437,10 @@ Q：什么是影响影子？
 
 - [发表一篇顶会论文的经验分享 - 勋爵 - 博客园](https://www.cnblogs.com/X-knight/p/9281538.html)
 
-
-
 News：
 
 - [1300篇！CVPR 2019论文接收结果公布，你上榜了吗？](https://mp.weixin.qq.com/s/uzcEXQ1ePfDEFB2PRmlAbw)
+- ……
 
 
 <div align="right">
