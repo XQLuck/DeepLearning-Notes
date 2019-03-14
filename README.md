@@ -30,6 +30,8 @@
 - [Sci-Hub](https://sci-hub.tw/)
 
   > 只要你有论文的 URL 或者 DOI（Digital Object Identifier）就可以粘贴到搜索框里，点击“Open”就会出现你想要的论文啦。是不是so easy，妈妈再也不用担心我下载不了论文了！
+  >
+  > *注：什么是 DOI，请看 [学术干货丨DOI是什么？怎样利用DOI快速检索文献？ – 材料牛](http://www.cailiaoniu.com/37930.html)*
 
 [中国知网](http://www.cnki.net/)  |  [arXiv](https://arxiv.org/)  |  [快搜 - 学术搜索](http://scholar.chongbuluo.com/)  |  [Web of Science [v.5.29] - 所有数据库 基本检索](http://apps.webofknowledge.com/UA_GeneralSearch_input.do?product=UA&search_mode=GeneralSearch&SID=8Ecas5pkrJVAlSzoqGC&preferencesSaved=)  | …
 
